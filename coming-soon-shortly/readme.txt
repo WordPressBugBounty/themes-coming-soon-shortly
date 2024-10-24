@@ -1,7 +1,7 @@
 === Coming Soon Shortly ===
 Contributors: wpelemento
 Requires at least: 5.0
-Stable tag: 0.0.8
+Stable tag: 0.0.9
 Requires PHP: 5.6
 Tested up to: 6.6
 License: GPLv3.0 or later
@@ -50,6 +50,12 @@ License URI : https://pxhere.com/en/license, CC0
 Source 		: https://pxhere.com/en/photo/657512
 
 == Changelog ==
+
+= October-23-2024 :: 0.0.9
+
+* Added enable / disable footer widget option.
+* Added enable / disable footer copyright option.
+* Updated woocommerce.
 
 = September-9-2024 :: 0.0.8
 

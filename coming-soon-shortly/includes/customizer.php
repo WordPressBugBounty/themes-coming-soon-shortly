@@ -978,6 +978,32 @@ if ( class_exists("Kirki")){
 		'priority'       => 160,
     ) );
 
+	Kirki::add_field( 'theme_config_id', [
+		'type'        => 'custom',
+		'settings'    => 'coming_soon_shortly_show_footer_widget_heading',
+		'section'     => 'coming_soon_shortly_footer_section',
+			'default'         => '<h3 style="color: #2271b1; padding:10px; background:#fff; margin:0; border-left: solid 5px #2271b1; ">' . __( 'Enable / Disable', 'coming-soon-shortly' ) . '</h3>',
+		'priority'    => 10,
+	] );
+
+	Kirki::add_field( 'theme_config_id', [
+		'type'        => 'toggle',
+		'settings'    => 'coming_soon_shortly_show_footer_widget',
+		'label'       => esc_html__( 'Footer Widget', 'coming-soon-shortly' ),
+		'section'     => 'coming_soon_shortly_footer_section',
+		'default'     => '1',
+		'priority'    => 10,
+	] );
+
+	Kirki::add_field( 'theme_config_id', [
+		'type'        => 'toggle',
+		'settings'    => 'coming_soon_shortly_show_footer_copyright',
+		'label'       => esc_html__( 'Footer Copyright', 'coming-soon-shortly' ),
+		'section'     => 'coming_soon_shortly_footer_section',
+		'default'     => '1',
+		'priority'    => 10,
+	] );
+
     Kirki::add_field( 'theme_config_id', [
 		'type'        => 'custom',
 		'settings'    => 'coming_soon_shortly_footer_text_heading',
