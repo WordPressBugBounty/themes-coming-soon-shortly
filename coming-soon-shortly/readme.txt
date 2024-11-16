@@ -1,9 +1,9 @@
 === Coming Soon Shortly ===
 Contributors: wpelemento
 Requires at least: 5.0
-Stable tag: 0.0.9
+Stable tag: 0.1.1
 Requires PHP: 5.6
-Tested up to: 6.6
+Tested up to: 6.7
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags:  blog, entertainment, portfolio, one-column, two-columns, right-sidebar, left-sidebar, grid-layout, three-columns, four-columns, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, flexible-header, footer-widgets, full-width-template, editor-style, sticky-post, theme-options, threaded-comments, translation-ready
@@ -50,6 +50,14 @@ License URI : https://pxhere.com/en/license, CC0
 Source 		: https://pxhere.com/en/photo/657512
 
 == Changelog ==
+
+= November-13-2024 :: 0.1.1
+
+* Added scroll to top position option.
+* Added scroll to top border radius option.
+* added address button css.
+* Tested upto WP v6.7.
+* Resolved css issue for customize.
 
 = October-23-2024 :: 0.0.9
 

@@ -22,3 +22,9 @@
   border-color: #dc8200;
   outline-color:#f89300 !important;
 }
+#customize-controls .customize-pane-parent{
+  overflow-x: hidden;
+}
+#customize-theme-controls .accordion-section-title:has(a):after{
+  display: none !important;
+}
