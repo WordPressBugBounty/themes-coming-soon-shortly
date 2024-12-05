@@ -1,7 +1,7 @@
 === Coming Soon Shortly ===
 Contributors: wpelemento
 Requires at least: 5.0
-Stable tag: 0.1.1
+Stable tag: 0.1.2
 Requires PHP: 5.6
 Tested up to: 6.7
 License: GPLv3.0 or later
@@ -50,6 +50,13 @@ License URI : https://pxhere.com/en/license, CC0
 Source 		: https://pxhere.com/en/photo/657512
 
 == Changelog ==
+
+= December-4-2024 :: 0.1.2
+
+* Updated form checkout file.
+* resolved css issue for frontpage.
+* Resolved customizer css issue.
+* changed global color variable name.
 
 = November-13-2024 :: 0.1.1
 

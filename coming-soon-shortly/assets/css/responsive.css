@@ -129,7 +129,7 @@
   }
   .header#site-navigation{
     position: static;
-    background: var(--primary-color);
+    background: var(--primary-theme-color);
     border-bottom: 1px solid #ffffff4a;
   }
   .logo a{
@@ -168,7 +168,7 @@
   }
   .header#site-navigation{
     position: static;
-    background: var(--primary-color);
+    background: var(--primary-theme-color);
     border-bottom: 1px solid #ffffff4a;
   }
 }

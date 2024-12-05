@@ -4,7 +4,7 @@ Description: Coming Soon Shortly is your go-to solution for building anticipatio
 Author: wpelemento
 Theme URI: https://www.wpelemento.com/products/free-coming-soon-wordpress-theme
 Author URI: https://www.wpelemento.com/
-Version: 0.1.1
+Version: 0.1.2
 Requires PHP: 5.6
 Tested up to: 6.7
 Requires at least: 5.0
@@ -18,7 +18,7 @@ Coming Soon Shortly WordPress Theme is released under the terms of GNU GPL
 */
 
 :root {
-  --primary-color: #707274;
+  --primary-theme-color: #707274;
 }
 .screen-reader-text {
 	border: 0;
@@ -80,7 +80,7 @@ a {
 }
 a:hover,
 a:focus {
-  color:var(--primary-color);
+  color:var(--primary-theme-color);
   text-decoration: none;
 }
 .alignwide {
@@ -97,10 +97,10 @@ a:focus {
 }
 .post-single a,.page-single a,.sidebar-area .textwidget a,.comment-content a,.woocommerce-product-details__short-description a,#tab-description a,.extra-home-content a {
   text-decoration: underline;
-  color:var(--primary-color);
+  color:var(--primary-theme-color);
 }
 .post-content a{
-  color:var(--primary-color);
+  color:var(--primary-theme-color);
 }
 /* ===============================================
    HEADER BOX
@@ -125,7 +125,7 @@ a:focus {
     border-radius: 3px;
   }
   .footer-links i:hover{
-    color: var(--primary-color);
+    color: var(--primary-theme-color);
   }
 /* ===============================================
    HEADER IMAGE
@@ -268,7 +268,7 @@ a:focus {
   }
   #main-menu ul.children li a:hover,
   #main-menu ul.sub-menu li a:hover{
-    background: var(--primary-color);
+    background: var(--primary-theme-color);
     color: #fff;
     border-radius: 0;
   }
@@ -329,7 +329,7 @@ img.custom-logo{
     color: #5b5b5b;
   }
   .post-meta,.crumb-box a:hover{
-    color: var(--primary-color);
+    color: var(--primary-theme-color);
   }
   pre {
     display: block;
@@ -427,10 +427,10 @@ img.custom-logo{
   .entry-author:hover a,
   .entry-author:hover i
   {
-    color: var(--primary-color);
+    color: var(--primary-theme-color);
   }
   .post-info i {
-    color: var(--primary-color);
+    color: var(--primary-theme-color);
     font-size: 12px;
   }
 /* ===============================================
@@ -463,7 +463,7 @@ img.custom-logo{
 .coming-soon-shortly-pagination span.current:focus,
 .coming-soon-shortly-pagination a span:hover,
 .coming-soon-shortly-pagination a span:focus {
-	background: var(--primary-color);
+	background: var(--primary-theme-color);
 	color: #fff;
 }
 
@@ -482,7 +482,7 @@ img.custom-logo{
   width: 100%;
 }
 .comment-respond input#submit {
-  background: var(--primary-color);
+  background: var(--primary-theme-color);
   border: none;
   color: #fff;
   padding: 10px;
@@ -521,7 +521,7 @@ img.custom-logo{
 .comment-reply a {
   padding: 10px;
   color: #fff;
-  background: var(--primary-color);
+  background: var(--primary-theme-color);
 }
 
 /* ===============================================
@@ -567,7 +567,7 @@ img.custom-logo{
   color: #5b5b5b;
 }
 .sidebar-area li a:hover, .sidebar-area li:hover{
-  color: var(--primary-color);
+  color: var(--primary-theme-color);
 }
 .sidebar-area li {
   padding: 14px 10px;
@@ -585,7 +585,7 @@ img.custom-logo{
   width: 50px;
   left: -60px;
   height: 2px;
-  background: var(--primary-color);
+  background: var(--primary-theme-color);
   top: 0;
   bottom: 0;
   margin: auto;
@@ -597,7 +597,7 @@ img.custom-logo{
   left: -60px;
   height: 10px;
   border-radius: 10px;
-  background: var(--primary-color);
+  background: var(--primary-theme-color);
   top: 0;
   bottom: 0;
   margin: auto;
@@ -622,7 +622,7 @@ img.custom-logo{
 }
 .sidebar-area .tagcloud a:hover,
 .footer-area .tagcloud a:hover{
-	background: var(--primary-color);
+	background: var(--primary-theme-color);
 	color: #fff;
 }
 .sidebar-area .wp-block-group__inner-container h2 {
@@ -721,7 +721,7 @@ tr:nth-child(2n+2) {
   border-radius: 30px;
 }
 .searchform input[type=submit] {
-  background: var(--primary-color);
+  background: var(--primary-theme-color);
   border: none;
   color: #fff;
   font-size: 14px;
@@ -742,7 +742,7 @@ tr:nth-child(2n+2) {
 }
 .searchform input[type=submit]:hover ,
 .searchform input[type=submit]:focus {
-	background: var(--primary-color);
+	background: var(--primary-theme-color);
 	text-decoration:none
 }
 .searchform:after {
@@ -760,7 +760,7 @@ tr:nth-child(2n+2) {
   color: #ffffff;
 }
 .footer-copyright a:hover{
-  color:var(--primary-color);
+  color:var(--primary-theme-color);
 }
 footer a,
 footer p,
@@ -860,7 +860,7 @@ img.aligncenter {
     border: none;
   }
   .sidebar-area .widget_search button.wp-block-search__button.wp-element-button{
-    background: var(--primary-color);
+    background: var(--primary-theme-color);
     border: none;
     color: #fff;
     font-size: 14px;
@@ -881,7 +881,7 @@ img.aligncenter {
   }
   .sidebar-area .widget_search button.wp-block-search__button:hover,
   .sidebar-area .widget_search button.wp-block-search__button:focus{
-    background: var(--primary-color);
+    background: var(--primary-theme-color);
     text-decoration:none;
   }
   .sidebar-area .widget_search .wp-block-search__inside-wrapper {
@@ -908,7 +908,7 @@ img.aligncenter {
     width: 50px;
     left: -60px;
     height: 2px;
-    background: var(--primary-color);
+    background: var(--primary-theme-color);
     top: 0;
     bottom: 0;
     margin: auto;
@@ -921,7 +921,7 @@ img.aligncenter {
     left: -60px;
     height: 10px;
     border-radius: 10px;
-    background: var(--primary-color);
+    background: var(--primary-theme-color);
     top: 0;
     bottom: 0;
     margin: auto;
@@ -946,7 +946,7 @@ img.aligncenter {
   }
   .sidebar-area .wp-block-tag-cloud a:hover,
   .footer-area .wp-block-tag-cloud a:hover{
-    background: var(--primary-color);
+    background: var(--primary-theme-color);
     color: #fff;
   }
   .sidebar-area ol footer.wp-block-latest-comments__comment-meta{
@@ -1004,7 +1004,7 @@ img.aligncenter {
 .wc-block-components-totals-coupon__form button,
 .wc-block-components-checkout-return-to-cart-button,
 .wc-block-grid__product-add-to-cart a{
-  background: var(--primary-color);
+  background: var(--primary-theme-color);
   color: #fff !important;
   line-height: unset;
   padding: .618em 1em;
@@ -1060,7 +1060,7 @@ a.wc-block-grid__product-link{
   text-decoration: none !important;
 }
 .wc-block-grid__product-price{
-  color: var(--primary-color) !important;
+  color: var(--primary-theme-color) !important;
   font-size: 14px !important;
   font-weight: 500 !important;
 }
@@ -1095,7 +1095,7 @@ nav.woocommerce-MyAccount-navigation ul {
 nav.woocommerce-MyAccount-navigation ul li{
   padding: 10px;
   margin-bottom: 15px;
-  background: var(--primary-color);
+  background: var(--primary-theme-color);
   color: #fff !important;
 }
 nav.woocommerce-MyAccount-navigation ul li:hover a,nav.woocommerce-MyAccount-navigation ul li:hover{
@@ -1108,7 +1108,7 @@ nav.woocommerce-MyAccount-navigation ul li a{
 }
 /* MY ACCOUNT Address Button */
 .woocommerce-Address-title a{
-  background: var(--primary-color);
+  background: var(--primary-theme-color);
   color: #fff !important;
   line-height: unset;
   padding: 0.4em 1em;
@@ -1126,7 +1126,7 @@ header.woocommerce-Address-title.title{
 }
 /* BUTTONS */
 .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button,.woocommerce a.added_to_cart{
-  background: var(--primary-color);
+  background: var(--primary-theme-color);
   color: #fff;
   line-height: unset;
 }
@@ -1161,7 +1161,7 @@ h2.woocommerce-loop-product__title {
   font-size: 18px !important;
 }
 .woocommerce ul.products li.product .price,.woocommerce div.product p.price, .woocommerce div.product span.price {
-  color: var(--primary-color);
+  color: var(--primary-theme-color);
   display: block;
   margin-bottom: 0;
   font-size: 18px;
@@ -1190,12 +1190,12 @@ h2.woocommerce-loop-product__title {
 }
 .wp-block-button__link{
 	color: #fff !important;
-  background-color:var(--primary-color) ;
+  background-color:var(--primary-theme-color) ;
   margin-bottom: 5px;
 }
 .wp-block-button.is-style-outline .wp-block-button__link{
-  border: 1px solid var(--primary-color);
-  color: var(--primary-color) !important;
+  border: 1px solid var(--primary-theme-color);
+  color: var(--primary-theme-color) !important;
 }
 .wp-block-button.is-style-squared .wp-block-button__link{
   border-radius: 0px !important;
@@ -1203,7 +1203,7 @@ h2.woocommerce-loop-product__title {
 /* shop page pagination  */
 .woocommerce nav.woocommerce-pagination ul li span.current {
   padding: 12px 15px;
-  background: var(--primary-color);
+  background: var(--primary-theme-color);
   color: #fff;
   border-radius: 10px;
   font-weight: bold;
@@ -1221,7 +1221,7 @@ h2.woocommerce-loop-product__title {
   border-radius: 10px;
 }
 .woocommerce nav.woocommerce-pagination ul li a:hover{
-  background: var(--primary-color);
+  background: var(--primary-theme-color);
   color: #fff;
 }
 
@@ -1246,7 +1246,7 @@ padding-left: 0px;
 .single-post-category .post-categories li a{
 margin-right: 8px;
 margin-bottom: 8px;
-background-color:var(--primary-color);
+background-color:var(--primary-theme-color);
 padding: 8px 10px;
 color: #fff;
 display: inline-block;
@@ -1266,7 +1266,7 @@ color: #fff;
   z-index: 999;
 }
 .scroll-up a {
-background: var(--primary-color);
+background: var(--primary-theme-color);
 color:#fff;
 }
 .scroll-up a {
@@ -1314,19 +1314,19 @@ color:#fff;
   left: 0;
 }
 .diamond span:nth-child(1){
-  border: 10px solid var(--primary-color);
+  border: 10px solid var(--primary-theme-color);
   border-left-color: #000;
   border-right-color: #000;
   transform: rotateX(90deg) rotateZ(45deg);
 }
 .diamond span:nth-child(2){
-  border: 6px solid var(--primary-color);
+  border: 6px solid var(--primary-theme-color);
   border-left-color: #000;
   border-right-color: #000;
   transform: rotateX(90deg) rotateY(90deg) rotateZ(45deg);
 }
 .diamond span:last-child{
-  border: 6px solid var(--primary-color);
+  border: 6px solid var(--primary-theme-color);
   border-left-color: #000;
   border-right-color: #000;
   transform: rotateZ(45deg);
