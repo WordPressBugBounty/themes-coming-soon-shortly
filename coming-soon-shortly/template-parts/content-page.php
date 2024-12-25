@@ -19,4 +19,7 @@
   <div class="post-content">
     <?php the_content(); ?>
   </div>
+  <div class="link-edit">
+       <?php edit_post_link( esc_html__( 'Edit', 'coming-soon-shortly' ), '<span class="edit-link">', '</span>' );  ?>
+  </div>
 </div>

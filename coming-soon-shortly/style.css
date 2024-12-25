@@ -4,7 +4,7 @@ Description: Coming Soon Shortly is your go-to solution for building anticipatio
 Author: wpelemento
 Theme URI: https://www.wpelemento.com/products/free-coming-soon-wordpress-theme
 Author URI: https://www.wpelemento.com/
-Version: 0.1.2
+Version: 0.1.3
 Requires PHP: 5.6
 Tested up to: 6.7
 Requires at least: 5.0
@@ -433,6 +433,27 @@ img.custom-logo{
     color: var(--primary-theme-color);
     font-size: 12px;
   }
+    /* Edit link  */
+.link-edit{
+  display: inline-block;
+  margin-left: 10px;
+}
+.post-info{
+  display:inline-block;
+}
+.link-edit::before {
+    content: "\f044";
+    color: var(--primary-theme-color);
+}
+.link-edit::before {
+    display: inline-block;
+    font-family: 'Font Awesome 6 Free';
+    height: 15px;
+    margin-right: 8px;
+}
+a.post-edit-link{
+  color: #000;
+}
 /* ===============================================
    Pagination
    ============================================= */

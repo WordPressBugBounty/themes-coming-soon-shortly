@@ -87,9 +87,12 @@
         <?php echo wp_trim_words( get_the_content(), get_theme_mod('coming_soon_shortly_length_setting','15')); ?>
         </div>
         <div class="post-info">
-        <?php if( get_theme_mod( 'coming_soon_shortly_comment_hide',true)) : ?>
-            <i class="<?php echo esc_attr(get_theme_mod('coming_soon_shortly_post_comment_icon_changer','fas fa-comments')); ?>"></i><span class="entry-comments ms-2"><?php comments_number( __('0 Comments','coming-soon-shortly'), __('0 Comments','coming-soon-shortly'), __('% Comments','coming-soon-shortly') ); ?></span>
-        <?php endif; ?>
+          <?php if( get_theme_mod( 'coming_soon_shortly_comment_hide',true)) : ?>
+              <i class="<?php echo esc_attr(get_theme_mod('coming_soon_shortly_post_comment_icon_changer','fas fa-comments')); ?>"></i><span class="entry-comments ms-2"><?php comments_number( __('0 Comments','coming-soon-shortly'), __('0 Comments','coming-soon-shortly'), __('% Comments','coming-soon-shortly') ); ?></span>
+          <?php endif; ?>
+        </div>
+        <div class="link-edit">
+          <?php edit_post_link( esc_html__( 'Edit', 'coming-soon-shortly' ), '<span class="edit-link">', '</span>' );  ?>
         </div>
       </div>
     </div>
