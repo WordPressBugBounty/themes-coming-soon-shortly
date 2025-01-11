@@ -632,6 +632,25 @@ if ( class_exists("Kirki")){
 	Kirki::add_field( 'theme_config_id', [
 		'type'        => 'custom',
 		'tab'      => 'general',
+		'settings'    => 'coming_soon_shortly_cursor_outline_heading',
+		'section'     => 'coming_soon_shortly_additional_setting',
+			'default'         => '<h3 style="color: #2271b1; padding:10px; background:#fff; margin:0; border-left: solid 5px #2271b1; ">' . __( 'Dot Cursor', 'coming-soon-shortly' ) . '</h3>',
+		'priority'    => 10,
+	] );
+
+	Kirki::add_field( 'theme_config_id', [
+		'type'        => 'toggle',
+		'tab'      => 'general',
+		'settings'    => 'coming_soon_shortly_cursor_outline',
+		'label'       => esc_html__( 'Enable or Disable Dot Cursor', 'coming-soon-shortly' ),
+		'section'     => 'coming_soon_shortly_additional_setting',
+		'default'     => false,
+		'priority'    => 10,
+	] );
+
+	Kirki::add_field( 'theme_config_id', [
+		'type'        => 'custom',
+		'tab'      => 'general',
 		'settings'    => 'coming_soon_shortly_single_page_layout_heading',
 		'section'     => 'coming_soon_shortly_additional_setting',
 		'default'     => '<h3 style="color: #2271b1; padding:10px; background:#fff; margin:0; border-left: solid 5px #2271b1; ">' . __( 'Single Page Layout', 'coming-soon-shortly' ) . '</h3>',

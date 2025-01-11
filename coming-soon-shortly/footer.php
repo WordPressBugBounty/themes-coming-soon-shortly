@@ -102,6 +102,12 @@
       <a href="#tobottom"><i class="fa fa-arrow-up"></i></a>
     </div>
   <?php endif; ?>
+  <?php if(get_theme_mod('coming_soon_shortly_cursor_outline', false )== true): ?>
+			<!-- Custom cursor -->
+			<div class="cursor-point-outline"></div>
+			<div class="cursor-point"></div>
+			<!-- .Custom cursor -->
+  <?php endif; ?>
 </footer>
 
 <?php wp_footer(); ?>
