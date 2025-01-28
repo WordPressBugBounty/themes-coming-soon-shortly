@@ -27,3 +27,13 @@
 			$coming_soon_shortly_theme_custom_setting_css .='right: auto;!important;';
         $coming_soon_shortly_theme_custom_setting_css .='}';
     }	
+
+	// Related Product
+
+	$coming_soon_shortly_show_related_product = get_theme_mod('coming_soon_shortly_show_related_product', true );
+
+	if($coming_soon_shortly_show_related_product != true){
+		$coming_soon_shortly_theme_custom_setting_css .='.related.products{';
+			$coming_soon_shortly_theme_custom_setting_css .='display: none;';
+		$coming_soon_shortly_theme_custom_setting_css .='}';
+	}    

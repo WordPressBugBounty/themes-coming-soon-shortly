@@ -544,6 +544,23 @@ if ( class_exists("Kirki")){
 			),
 		),
 	] );
+
+	Kirki::add_field( 'theme_config_id', [
+		'type'        => 'custom',
+		'settings'    => 'coming_soon_shortly_show_related_product_heading',
+		'section'     => 'coming_soon_shortly_woocommerce_settings',
+			'default'         => '<h3 style="color: #2271b1; padding:10px; background:#fff; margin:0; border-left: solid 5px #2271b1; ">' . __( 'Related Product', 'coming-soon-shortly' ) . '</h3>',
+		'priority'    => 10,
+	] );
+
+	Kirki::add_field( 'theme_config_id', [
+		'type'        => 'toggle',
+		'settings'    => 'coming_soon_shortly_show_related_product',
+		'label'       => esc_html__( 'Enable or Disable Related Product', 'coming-soon-shortly' ),
+		'section'     => 'coming_soon_shortly_woocommerce_settings',
+		'default'     => true,
+		'priority'    => 10,
+	] );
 	
 	//ADDITIONAL SETTINGS
 
@@ -877,6 +894,25 @@ if ( class_exists("Kirki")){
 					'max'  => 40,
 		 			'step' => 1,
 				],
+	] );
+
+	Kirki::add_field( 'theme_config_id', [
+		'type'        => 'custom',
+		'tab'      => 'blog-post',
+		'settings'    => 'coming_soon_shortly_show_pagination_heading',
+		'section'     => 'coming_soon_shortly_blog_post',
+			'default'         => '<h3 style="color: #2271b1; padding:10px; background:#fff; margin:0; border-left: solid 5px #2271b1; ">' . __( 'Blog Post Pagination', 'coming-soon-shortly' ) . '</h3>',
+		'priority'    => 10,
+	] );
+
+	Kirki::add_field( 'theme_config_id', [
+		'type'        => 'toggle',
+		'tab'      => 'blog-post',
+		'settings'    => 'coming_soon_shortly_show_pagination',
+		'label'       => esc_html__( 'Enable or Disable Blog Post Pagination', 'coming-soon-shortly' ),
+		'section'     => 'coming_soon_shortly_blog_post',
+		'default'     => true,
+		'priority'    => 10,
 	] );
 
 	Kirki::add_field( 'theme_config_id', [
