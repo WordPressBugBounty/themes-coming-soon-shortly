@@ -178,6 +178,20 @@
     width: 100%;
   }
 }
+/* ===============================================
+   Progress Bar
+  =============================================== */
+  @media only screen and (max-width: 782px) {
+    .admin-bar #elemento-progress-bar.top {
+        top: 46px;
+      }
+    }
+  @media only screen and (max-width: 600px) {
+    .admin-bar #elemento-progress-bar.top {
+        top: 0;
+    }
+  }
+
 /* HOMEPAGE */
 
 @media screen and (min-width : 320px) and (max-width : 767px) {

@@ -102,6 +102,9 @@
       <a href="#tobottom"><i class="fa fa-arrow-up"></i></a>
     </div>
   <?php endif; ?>
+  <?php if(get_theme_mod('coming_soon_shortly_progress_bar', true )== true): ?>
+    <div id="elemento-progress-bar" class="theme-progress-bar top"></div>
+  <?php endif; ?>
   <?php if(get_theme_mod('coming_soon_shortly_cursor_outline', false )== true): ?>
 			<!-- Custom cursor -->
 			<div class="cursor-point-outline"></div>

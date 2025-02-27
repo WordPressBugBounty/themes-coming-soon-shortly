@@ -4,7 +4,7 @@ Description: Coming Soon Shortly is your go-to solution for building anticipatio
 Author: wpelemento
 Theme URI: https://www.wpelemento.com/products/free-coming-soon-wordpress-theme
 Author URI: https://www.wpelemento.com/
-Version: 0.1.5
+Version: 0.1.6
 Requires PHP: 5.6
 Tested up to: 6.7
 Requires at least: 5.0
@@ -1368,6 +1368,23 @@ color:#fff;
 }
 .not-found-content #searchform {
   display: inline-block;
+}
+
+/* ===============================================
+  Progress Bar
+=============================================== */
+#elemento-progress-bar {
+  background-color: var(--primary-theme-color);
+  position: fixed;
+  width: 0;
+  height: 4px;
+  z-index: 99999;
+}
+#elemento-progress-bar.top {
+  top: 0;
+}
+.admin-bar #elemento-progress-bar.top {
+  top: 32px;
 }
 /* ===============================================
    HOME PAGE CSS

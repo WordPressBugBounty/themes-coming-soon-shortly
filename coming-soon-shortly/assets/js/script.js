@@ -191,3 +191,26 @@ const coming_soon_shortly_customCursor = {
   },
 };
 coming_soon_shortly_customCursor.init(); 
+
+/* ===============================================
+  Progress Bar
+============================================= */
+const coming_soon_shortly_progressBar = {
+  init: function () {
+      let coming_soon_shortly_progressBarDiv = document.getElementById("elemento-progress-bar");
+
+      if (coming_soon_shortly_progressBarDiv) {
+          let coming_soon_shortly_body = document.body;
+          let coming_soon_shortly_rootElement = document.documentElement;
+
+          window.addEventListener("scroll", function (event) {
+              let coming_soon_shortly_winScroll = coming_soon_shortly_body.scrollTop || coming_soon_shortly_rootElement.scrollTop;
+              let coming_soon_shortly_height =
+              coming_soon_shortly_rootElement.scrollHeight - coming_soon_shortly_rootElement.clientHeight;
+              let coming_soon_shortly_scrolled = (coming_soon_shortly_winScroll / coming_soon_shortly_height) * 100;
+              coming_soon_shortly_progressBarDiv.style.width = coming_soon_shortly_scrolled + "%";
+          });
+      }
+  },
+};
+coming_soon_shortly_progressBar.init();
