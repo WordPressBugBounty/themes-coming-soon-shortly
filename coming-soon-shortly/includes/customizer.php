@@ -687,6 +687,83 @@ if ( class_exists("Kirki")){
 	Kirki::add_field( 'theme_config_id', [
 		'type'        => 'custom',
 		'tab'      => 'general',
+		'settings'    => 'coming_soon_shortly_progress_bar_position_heading',
+		'section'     => 'coming_soon_shortly_additional_setting',
+			'default'         => '<h3 style="color: #2271b1; padding:10px; background:#fff; margin:0; border-left: solid 5px #2271b1; ">' . __( 'Progress Bar Position', 'coming-soon-shortly' ) . '</h3>',
+		'priority'    => 10,
+		'active_callback'  => [
+			[
+				'setting'  => 'coming_soon_shortly_progress_bar',
+				'operator' => '===',
+				'value'    => true,
+			],
+		]
+	] );
+
+	Kirki::add_field( 'theme_config_id', array(
+		'type'        => 'select',
+		'tab'      => 'general',
+		'settings'    => 'coming_soon_shortly_progress_bar_position',
+		'section'     => 'coming_soon_shortly_additional_setting',
+		'default'     => 'top',
+		'choices'     => [
+			'top' => esc_html__( 'Top', 'coming-soon-shortly' ),
+			'bottom' => esc_html__( 'Bottom', 'coming-soon-shortly' ),
+		],
+		'active_callback'  => [
+			[
+				'setting'  => 'coming_soon_shortly_progress_bar',
+				'operator' => '===',
+				'value'    => true,
+			],
+		]
+	) );
+
+	Kirki::add_field( 'theme_config_id', [
+		'type'        => 'custom',
+		'tab'      => 'general',
+		'settings'    => 'coming_soon_shortly_progress_bar_color_heading',
+		'section'     => 'coming_soon_shortly_additional_setting',
+			'default'         => '<h3 style="color: #2271b1; padding:10px; background:#fff; margin:0; border-left: solid 5px #2271b1; ">' . __( 'Progress Bar Color', 'coming-soon-shortly' ) . '</h3>',
+		'priority'    => 10,
+		'active_callback'  => [
+			[
+				'setting'  => 'coming_soon_shortly_progress_bar',
+				'operator' => '===',
+				'value'    => true,
+			],
+		]
+	] );
+
+	Kirki::add_field( 'theme_config_id', array(
+		'settings'    => 'coming_soon_shortly_progress_bar_color',
+		'tab'      => 'general',
+		'label'       => __( 'Color', 'coming-soon-shortly' ),
+		'type'        => 'color',
+		'section'     => 'coming_soon_shortly_additional_setting',
+		'transport' => 'auto',
+		'default'     => '#707274',
+		'choices'     => [
+			'alpha' => true,
+		],
+		'output' => array(
+			array(
+				'element'  => '#elemento-progress-bar',
+				'property' => 'background-color',
+			),
+		),
+		'active_callback'  => [
+			[
+				'setting'  => 'coming_soon_shortly_progress_bar',
+				'operator' => '===',
+				'value'    => true,
+			],
+		]
+	) );
+
+	Kirki::add_field( 'theme_config_id', [
+		'type'        => 'custom',
+		'tab'      => 'general',
 		'settings'    => 'coming_soon_shortly_single_page_layout_heading',
 		'section'     => 'coming_soon_shortly_additional_setting',
 		'default'     => '<h3 style="color: #2271b1; padding:10px; background:#fff; margin:0; border-left: solid 5px #2271b1; ">' . __( 'Single Page Layout', 'coming-soon-shortly' ) . '</h3>',

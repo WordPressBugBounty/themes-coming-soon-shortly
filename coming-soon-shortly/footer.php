@@ -103,7 +103,7 @@
     </div>
   <?php endif; ?>
   <?php if(get_theme_mod('coming_soon_shortly_progress_bar', true )== true): ?>
-    <div id="elemento-progress-bar" class="theme-progress-bar top"></div>
+    <div id="elemento-progress-bar" class="theme-progress-bar <?php if( get_theme_mod( 'coming_soon_shortly_progress_bar_position','top') == 'top') { ?> top <?php } else { ?> bottom <?php } ?>"></div>
   <?php endif; ?>
   <?php if(get_theme_mod('coming_soon_shortly_cursor_outline', false )== true): ?>
 			<!-- Custom cursor -->

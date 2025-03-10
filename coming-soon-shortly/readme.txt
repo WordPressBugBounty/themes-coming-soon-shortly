@@ -1,7 +1,7 @@
 === Coming Soon Shortly ===
 Contributors: wpelemento
 Requires at least: 5.0
-Stable tag: 0.1.6
+Stable tag: 0.1.7
 Requires PHP: 5.6
 Tested up to: 6.7
 License: GPLv3.0 or later
@@ -50,6 +50,12 @@ License URI : https://pxhere.com/en/license, CC0
 Source 		: https://pxhere.com/en/photo/657512
 
 == Changelog ==
+
+= March-8-2025 :: 0.1.7
+
+* Added progress bar position option.
+* Added progress bar color option.
+* Updated woocommerce form-login.php file.
 
 = February-26-2025 :: 0.1.6
 
