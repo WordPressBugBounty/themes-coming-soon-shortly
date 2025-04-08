@@ -51,6 +51,9 @@ get_header(); ?>
             );
 
             comments_template();
+            if(get_theme_mod('coming_soon_shortly_show_related_post', true )== true):
+              get_template_part( 'template-parts/related-posts' );
+            endif;
           endwhile;
         ?>
       </div>
