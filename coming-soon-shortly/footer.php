@@ -16,37 +16,66 @@
   <?php if( get_theme_mod( 'coming_soon_shortly_show_footer_widget',true)) : ?>
     <div class="footer-widget">
       <div class="container">
-        <?php if ( is_active_sidebar( 'footer1-sidebar' ) || is_active_sidebar( 'footer2- sidebar' ) || is_active_sidebar( 'footer3-sidebar' ) || is_active_sidebar( 'footer4-sidebar' ) ) : ?>
-        <?php $coming_soon_shortly_count = 0;
-          if ( is_active_sidebar('footer1-sidebar') ) : $coming_soon_shortly_count++; endif; 
-          if ( is_active_sidebar('footer2-sidebar') ) : $coming_soon_shortly_count++; endif; 
-          if ( is_active_sidebar('footer3-sidebar') ) : $coming_soon_shortly_count++; endif; 
-          if ( is_active_sidebar('footer4-sidebar') ) : $coming_soon_shortly_count++; endif;
-          $coming_soon_shortly_row = 'col-lg-'. 12/$coming_soon_shortly_count .' col-md-'. 12/$coming_soon_shortly_count .' col-sm-12';
+        <?php
+          // Check if any footer sidebar is active
+          $coming_soon_shortly_any_sidebar_active = false;
+          for ( $coming_soon_shortly_i = 1; $coming_soon_shortly_i <= 4; $coming_soon_shortly_i++ ) {
+            if ( is_active_sidebar( "footer{$coming_soon_shortly_i}-sidebar" ) ) {
+              $coming_soon_shortly_any_sidebar_active = true;
+              break;
+            }
+          }
+          // Count active for responsive column classes
+          $coming_soon_shortly_active_sidebars = 0;
+          if ( $coming_soon_shortly_any_sidebar_active ) {
+            for ( $coming_soon_shortly_i = 1; $coming_soon_shortly_i <= 4; $coming_soon_shortly_i++ ) {
+              if ( is_active_sidebar( "footer{$coming_soon_shortly_i}-sidebar" ) ) {
+                $coming_soon_shortly_active_sidebars++;
+              }
+            }
+          }
+          $coming_soon_shortly_col_class = $coming_soon_shortly_active_sidebars > 0 ? 'col-lg-' . (12 / $coming_soon_shortly_active_sidebars) . ' col-md-6 col-sm-12' : 'col-lg-3 col-md-6 col-sm-12';
         ?>
         <div class="row pt-2">
-            <?php if ( is_active_sidebar('footer1-sidebar') ) : ?>
-                <div class="footer-area <?php echo $coming_soon_shortly_row ?>">
-                    <?php dynamic_sidebar('footer1-sidebar'); ?>
-                </div>
-            <?php endif; ?>
-            <?php if ( is_active_sidebar('footer2-sidebar') ) : ?>
-                <div class="footer-area <?php echo $coming_soon_shortly_row ?>">
-                    <?php dynamic_sidebar('footer2-sidebar'); ?>
-                </div>
-            <?php endif; ?>
-            <?php if ( is_active_sidebar('footer3-sidebar') ) : ?>
-                <div class="footer-area <?php echo $coming_soon_shortly_row ?>">
-                    <?php dynamic_sidebar('footer3-sidebar'); ?>
-                </div>
-            <?php endif; ?>
-            <?php if ( is_active_sidebar('footer4-sidebar') ) : ?>
-                <div class="footer-area <?php echo $coming_soon_shortly_row ?>">
-                    <?php dynamic_sidebar('footer4-sidebar'); ?>
-                </div>
-            <?php endif; ?>
+          <?php for ( $coming_soon_shortly_i = 1; $coming_soon_shortly_i <= 4; $coming_soon_shortly_i++ ) : ?>
+            <div class="footer-area <?php echo esc_attr($coming_soon_shortly_col_class); ?>">
+              <?php if ( $coming_soon_shortly_any_sidebar_active && is_active_sidebar("footer{$coming_soon_shortly_i}-sidebar") ) : ?>
+                <?php dynamic_sidebar("footer{$coming_soon_shortly_i}-sidebar"); ?>
+              <?php elseif ( ! $coming_soon_shortly_any_sidebar_active ) : ?>
+                  <?php if ( $coming_soon_shortly_i === 1 ) : ?>
+                    <aside role="complementary" aria-label="<?php echo esc_attr__( 'footer1', 'coming-soon-shortly' ); ?>" id="Search" class="sidebar-widget">
+                      <h4 class="title" ><?php esc_html_e( 'Search', 'coming-soon-shortly' ); ?></h4>
+                      <?php get_search_form(); ?>
+                    </aside>
+
+                  <?php elseif ( $coming_soon_shortly_i === 2 ) : ?>
+                      <aside role="complementary" aria-label="<?php echo esc_attr__( 'footer2', 'coming-soon-shortly' ); ?>" id="archives" class="sidebar-widget">
+                      <h4 class="title" ><?php esc_html_e( 'Archives', 'coming-soon-shortly' ); ?></h4>
+                      <ul>
+                          <?php wp_get_archives( array( 'type' => 'monthly' ) ); ?>
+                      </ul>
+                      </aside>
+                  <?php elseif ( $coming_soon_shortly_i === 3 ) : ?>
+                    <aside role="complementary" aria-label="<?php echo esc_attr__( 'footer3', 'coming-soon-shortly' ); ?>" id="meta" class="sidebar-widget">
+                      <h4 class="title"><?php esc_html_e( 'Meta', 'coming-soon-shortly' ); ?></h4>
+                      <ul>
+                        <?php wp_register(); ?>
+                        <li><?php wp_loginout(); ?></li>
+                        <?php wp_meta(); ?>
+                      </ul>
+                    </aside>
+                  <?php elseif ( $coming_soon_shortly_i === 4 ) : ?>
+                    <aside role="complementary" aria-label="<?php echo esc_attr__( 'footer4', 'coming-soon-shortly' ); ?>" id="categories" class="sidebar-widget">
+                      <h4 class="title" ><?php esc_html_e( 'Categories', 'coming-soon-shortly' ); ?></h4>
+                      <ul>
+                          <?php wp_list_categories('title_li=');  ?>
+                      </ul>
+                    </aside>
+                  <?php endif; ?>
+              <?php endif; ?>
+            </div>
+          <?php endfor; ?>
         </div>
-        <?php endif; ?>
       </div>
     </div>
   <?php endif; ?>
