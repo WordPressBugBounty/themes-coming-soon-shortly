@@ -70,6 +70,10 @@ if (!function_exists('coming_soon_shortly_enqueue_scripts')) {
 			TRUE
 		);
 
+		wp_enqueue_style( 'animate-css', esc_url(get_template_directory_uri()).'/assets/css/animate.css' );
+
+		wp_enqueue_script( 'wow-js', esc_url(get_template_directory_uri()) . '/assets/js/wow.js', array('jquery') );
+
 		require get_parent_theme_file_path( '/includes/color-setting/custom-color-control.php' );
 		wp_add_inline_style( 'coming-soon-shortly-style',$coming_soon_shortly_theme_custom_setting_css );
 

@@ -1,7 +1,7 @@
 === Coming Soon Shortly ===
 Contributors: wpelemento
 Requires at least: 5.0
-Stable tag: 0.1.9
+Stable tag: 0.2
 Requires PHP: 5.6
 Tested up to: 6.8
 License: GPLv3.0 or later
@@ -43,6 +43,20 @@ TGMPA
 * https://github.com/TGMPA/TGM-Plugin-Activation/blob/develop/LICENSE.md
 * License: GNU General Public License v2.0
 
+WOW JS
+* Matthieu Aussaguel
+* Copyright 2016, Matthieu Aussaguel
+* https://github.com/matthieua/WOW
+* License: GPLv3
+* https://github.com/matthieua/WOW/blob/master/README.md
+
+Animate CSS
+* Daniel Eden
+* Copyright 2021 Daniel Eden
+* https://github.com/animate-css/animate.css
+* License: 2.1
+* https://github.com/animate-css/animate.css/blob/main/LICENSE
+
 Images used in screenshots.
 
 License 	: CC0 1.0 Universal (CC0 1.0)
@@ -50,6 +64,13 @@ License URI : https://pxhere.com/en/license, CC0
 Source 		: https://pxhere.com/en/photo/657512
 
 == Changelog ==
+
+= July-3-2025 :: 0.2
+
+* Added blog post animation.
+* Added blog post animation show hide option.
+* Updated woocommerce login form template.
+* Added responsive option for footer widget alignment.
 
 = May-2-2025 :: 0.1.9
 

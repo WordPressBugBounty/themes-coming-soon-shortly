@@ -910,6 +910,25 @@ if ( class_exists("Kirki")){
 	Kirki::add_field( 'theme_config_id', [
 		'type'        => 'custom',
 		'tab'      => 'blog-post',
+		'settings'    => 'coming_soon_shortly_enable_post_animation_heading',
+		'section'     => 'coming_soon_shortly_blog_post',
+			'default'         => '<h3 style="color: #2271b1; padding:10px; background:#fff; margin:0; border-left: solid 5px #2271b1; ">' . __( 'Animation', 'coming-soon-shortly' ) . '</h3>',
+		'priority'    => 10,
+	] );
+
+	Kirki::add_field( 'theme_config_id', [
+		'type'        => 'toggle',
+		'tab'      => 'blog-post',
+		'settings'    => 'coming_soon_shortly_enable_post_animation',
+		'label'       => esc_html__( 'Enable or Disable Blog Post Animation', 'coming-soon-shortly' ),
+		'section'     => 'coming_soon_shortly_blog_post',
+		'default'     => true,
+		'priority'    => 10,
+	] );
+
+	Kirki::add_field( 'theme_config_id', [
+		'type'        => 'custom',
+		'tab'      => 'blog-post',
 		'settings'    => 'coming_soon_shortly_post_layout_heading',
 		'section'     => 'coming_soon_shortly_blog_post',
 		'default'     => '<h3 style="color: #2271b1; padding:10px; background:#fff; margin:0; border-left: solid 5px #2271b1; ">' . __( 'Blog Layout', 'coming-soon-shortly' ) . '</h3>',
@@ -1300,7 +1319,14 @@ if ( class_exists("Kirki")){
 		'type'        => 'select',
 		'settings'    => 'coming_soon_shortly_footer_widget_alignment',
 		'section'     => 'coming_soon_shortly_footer_section',
-		'default'     => 'left',
+		'default'     =>[
+			'desktop' => 'left',
+			'tablet'  => 'left',
+			'mobile'  => 'center',
+		],
+		'responsive' => true,
+		'label'       => __( 'Widget Alignment', 'coming-soon-shortly' ),
+		'transport' => 'auto',
 		'choices'     => [
 			'center' => esc_html__( 'center', 'coming-soon-shortly' ),
 			'right' => esc_html__( 'right', 'coming-soon-shortly' ),
@@ -1310,6 +1336,11 @@ if ( class_exists("Kirki")){
 			array(
 				'element'  => '.footer-area',
 				'property' => 'text-align',
+				'media_query' => [
+					'desktop' => '@media (min-width: 1024px)',
+					'tablet'  => '@media (min-width: 768px) and (max-width: 1023px)',
+					'mobile'  => '@media (max-width: 767px)',
+				],
 			),
 		),
 	) );
