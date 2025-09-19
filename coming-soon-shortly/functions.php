@@ -76,6 +76,7 @@ if (!function_exists('coming_soon_shortly_enqueue_scripts')) {
 
 		require get_parent_theme_file_path( '/includes/color-setting/custom-color-control.php' );
 		wp_add_inline_style( 'coming-soon-shortly-style',$coming_soon_shortly_theme_custom_setting_css );
+		wp_style_add_data('coming-soon-shortly-style', 'rtl', 'replace');
 
 		if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
 

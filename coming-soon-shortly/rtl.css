@@ -1,22 +1,3 @@
-/*
-Theme Name: Coming Soon Shortly
-Description: Coming Soon Shortly is your go-to solution for building anticipation and excitement ahead of your brand's official launch. With its sleek and minimalist design, this WordPress theme offers a tantalizing glimpse into what's in store for your audience. Our theme caters to businesses and individuals preparing for a launch or event, featuring a responsive design with a customizable countdown timer, Mailchimp integration, and minimalist layout options. Whether you're gearing up for a product launch, undergoing maintenance, under construction,launch page, maintenance mode, landing page, teaser page, pre-launch,website launch, product launch, countdown timer or announcing upcoming projects, our theme ensures a seamless transition and keeps visitors engaged until the big reveal. Stay tuned for the ultimate coming soon experience with our theme, perfect for building anticipation and excitement around your upcoming product launches, events, and projects. The strategically placed countdown timer creates a sense of urgency, encouraging visitors to mark their calendars for the highly anticipated event. Versatility is a key feature of this theme, catering to a diverse range of industries, from startups to well-established brands. This theme comes with all the necessary tools and features to help you create a stunning website. Its user-friendly customization options provide you with the flexibility to align the theme seamlessly with your brand identity. The intuitive interface empowers you to effortlessly tweak and tailor elements, ensuring a cohesive and on-brand look. As an integral component of your pre-launch marketing strategy, the Coming Soon Shortly WordPress Theme plays a crucial role in creating a captivating and memorable first impression. It sets the stage for a successful unveiling, leaving a lasting impact on your audience and generating buzz that extends far beyond the initial reveal. The Coming Soon Shortly WordPress Theme is your digital curtain, ready to lift and unveil your brand to the world in a way that leaves a lasting impression. Demo: https://preview.wpelemento.com/coming-soon-shortly/
-Author: wpelemento
-Theme URI: https://www.wpelemento.com/products/free-coming-soon-wordpress-theme
-Author URI: https://www.wpelemento.com/
-Version: 0.2.3
-Requires PHP: 5.6
-Tested up to: 6.8
-Requires at least: 5.0
-Text Domain: coming-soon-shortly
-Tags: blog, entertainment, portfolio, one-column, two-columns, right-sidebar, left-sidebar, grid-layout, three-columns, four-columns, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, flexible-header, footer-widgets, full-width-template, editor-style, sticky-post, theme-options, threaded-comments, translation-ready, rtl-language-support, wide-blocks
-License: GNU General Public License v3.0 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
-
-Coming Soon Shortly WordPress Theme, (C) 2024 wpelemento.com
-Coming Soon Shortly WordPress Theme is released under the terms of GNU GPL
-*/
-
 :root {
   --primary-theme-color: #707274;
 }
@@ -47,7 +28,7 @@ Coming Soon Shortly WordPress Theme is released under the terms of GNU GPL
 	font-size: 14px;
 	font-weight: 600;
 	height: auto;
-	left: 5px;
+	right: 5px;
 	line-height: normal;
 	padding: 15px 23px 14px;
 	text-decoration: none;
@@ -84,12 +65,12 @@ a:focus {
   text-decoration: none;
 }
 .alignwide {
-  margin-left  : -80px;
-  margin-right : -80px;
+  margin-right  : -80px;
+  margin-left : -80px;
 }
 .alignfull {
-  margin-left  : calc( -100vw / 2 + 100% / 2 );
-  margin-right : calc( -100vw / 2 + 100% / 2 );
+  margin-right  : calc( -100vw / 2 + 100% / 2 );
+  margin-left : calc( -100vw / 2 + 100% / 2 );
   max-width    : 100vw;
 }
 .alignfull img {
@@ -115,7 +96,7 @@ a:focus {
   FOOTER SOCIAL ICONS
 ============================================= */
   .footer-links{
-    text-align: left;
+    text-align: right;
     padding: 6px 0px;
   }
   .footer-links i{
@@ -142,8 +123,8 @@ a:focus {
     position: absolute;
     content: "";
     top: 0;
-    right: 0;
     left: 0;
+    right: 0;
     bottom: 0;
     background: #00000059;
     z-index: 1;
@@ -198,7 +179,7 @@ a:focus {
     position: relative;
     display: inline-block;
     float: inherit;
-    text-align: left;
+    text-align: right;
   }
   #main-menu ul li a {
     display: block;
@@ -229,11 +210,11 @@ a:focus {
     opacity:0;
     position: absolute;
     top: 35px;
-    left: -9999em;
+    right: -9999em;
     background:#f5f9ff;
     z-index:10001;
     width:213px;
-    padding-left:0;
+    padding-right:0;
     -webkit-transition: opacity 0.3s ease 0s;
     -moz-transition: opacity 0.3s ease 0s;
     -o-transition: opacity 0.3s ease 0s;
@@ -253,12 +234,12 @@ a:focus {
   #main-menu li li:focus > ul,
   #main-menu li li.focus > ul {
     top:0px;
-    left: -100%;
+    right: -100%;
   }
   #main-menu ul.children li a ,
   #main-menu ul.sub-menu li a {
     text-decoration:none;
-    text-align:left;
+    text-align:right;
     display:block;
     padding:10px 15px;
     margin:0;
@@ -283,7 +264,7 @@ a:focus {
   #main-menu li:focus > ul,
   #main-menu li.focus > ul {
     opacity:1;
-    left: 0;
+    right: 0;
   }
   /* ===============================================
     Menu dropdown css
@@ -292,20 +273,20 @@ a:focus {
   content: '';
   position: absolute;
   border: solid #fff;
-  right: 0px;
+  left: 0px;
   top: 50%;
-  border-width: 0 3px 3px 0;
+  border-width: 0 0 3px 3px;
   display: inline-block;
   padding: 3px;
-  -webkit-transform: translate(0,-50%) rotate(45deg);
-  transform: translate(0,-50%) rotate(45deg);
+  -webkit-transform: translate(0,-50%) rotate(-45deg);
+  transform: translate(0,-50%) rotate(-45deg);
 
 }
 #main-menu ul li.menu-item-has-children{
-  padding-right: 10px;
+  padding-left: 10px;
 }
 #main-menu ul.sub-menu li.menu-item-has-children:after {
-  right: 30px;
+  left: 30px;
 }
 img.custom-logo{
   max-width: 100%;
@@ -364,7 +345,7 @@ img.custom-logo{
     word-wrap: break-word;
   }
   #content,footer {
-    float: left;
+    float: right;
     width: 100%;
   }
   .box {
@@ -380,12 +361,12 @@ img.custom-logo{
   .box img{
     width: 100%;
     height: auto;
-    transform: translateX(-20px) scale(1.15);
+    transform: translateX(20px) scale(1.15);
     transition: all 0.5s ease;
   }
   .post-box:hover img{
     opacity: 0.2;
-    transform: translateX(20px) scale(1.15);
+    transform: translateX(-20px) scale(1.15);
   }
   .box .box-content{
     opacity: 0;
@@ -393,8 +374,8 @@ img.custom-logo{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 0;
     right: 0;
+    left: 0;
     text-align: center;
     z-index: 1;
     transition: all 0.5s ease;
@@ -436,7 +417,7 @@ img.custom-logo{
     /* Edit link  */
 .link-edit{
   display: inline-block;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 .post-info{
   display:inline-block;
@@ -449,7 +430,7 @@ img.custom-logo{
     display: inline-block;
     font-family: 'Font Awesome 6 Free';
     height: 15px;
-    margin-right: 8px;
+    margin-left: 8px;
 }
 a.post-edit-link{
   color: #000;
@@ -519,10 +500,10 @@ a.post-edit-link{
   font-size: 1.125rem;
 }
 .comment-body .pull-left {
-  padding-right: 0.625rem;
+  padding-left: 0.625rem;
 }
 .comment-list {
-  padding-left: 0;
+  padding-right: 0;
   border-bottom: 1px solid #00000047;
 }
 .comment-list .comment {
@@ -533,8 +514,8 @@ a.post-edit-link{
   padding: 0.563rem 0;
 }
 .comment-list .pingback a {
-  margin-left: 5px;
   margin-right: 5px;
+  margin-left: 5px;
 }
 .comment-content.card-block {
   padding: 15px;
@@ -550,8 +531,8 @@ a.post-edit-link{
    =============================================== */
 
 .sidebar-area {
-  border-left: solid 1px #e4e7ee;
-  padding: 0 0 0 20px;
+  border-right: solid 1px #e4e7ee;
+  padding: 0 20px 0 0;
 }
 .sidebar-area .textwidget img,
 .footer-area .textwidget img{
@@ -597,14 +578,14 @@ a.post-edit-link{
 .sidebar-area h4.title {
 	position: relative;
   font-size: 25px;
-  margin-left: 60px;
+  margin-right: 60px;
   margin-bottom: 20px;
 }
 .sidebar-area h4.title:before {
  	position: absolute;
   content: "";
   width: 50px;
-  left: -60px;
+  right: -60px;
   height: 2px;
   background: var(--primary-theme-color);
   top: 0;
@@ -615,7 +596,7 @@ a.post-edit-link{
   position: absolute;
   content: "";
   width: 10px;
-  left: -60px;
+  right: -60px;
   height: 10px;
   border-radius: 10px;
   background: var(--primary-theme-color);
@@ -678,7 +659,7 @@ a.post-edit-link{
 	border: solid 1px #e4e7ee;
 }
 .sidebar-area ol.wp-block-latest-comments{
-  padding-left: 0px;
+  padding-right: 0px;
 }
 #wp-calendar th,
 #wp-calendar
@@ -699,7 +680,7 @@ a.post-edit-link{
 	font-size: 14px;
 	text-transform:uppercase;
 	margin:0 0 10px 0;
-	text-align:left;
+	text-align:right;
 }
 #wp-calendar th,
 #wp-calendar td {
@@ -718,7 +699,7 @@ a.post-edit-link{
 #wp-calendar td#prev a,
 #wp-calendar td#prev a{
 	text-decoration:none;
-	text-align:left;
+	text-align:right;
 }
 #wp-calendar th{
 	font-weight:bold
@@ -733,7 +714,7 @@ tr:nth-child(2n+2) {
   width: calc(100% - 110px);
   margin: 0;
   padding: 12px;
-  float: left;
+  float: right;
   background-color: transparent;
   border: none;
 }
@@ -749,7 +730,7 @@ tr:nth-child(2n+2) {
   font-weight: 600;
   text-align: center;
   position: relative;
-  float: left;
+  float: right;
   border-radius: 30px;
   text-shadow: none;
   padding: 10px 0;
@@ -823,22 +804,22 @@ img.aligncenter,
 .alignleft,
 img.alignleft {
 	display:inline;
-	float:left;
-	margin-right:24px;
+	float:right;
+	margin-left:24px;
 	margin-top:4px;
 }
 .alignright,
 img.alignright {
 	display:inline;
-	float:right;
-	margin-left:24px;
+	float:left;
+	margin-right:24px;
 	margin-top:4px;
 }
 div.aligncenter,
 img.aligncenter {
 	display: block;
-	margin-left: auto !important;
 	margin-right: auto !important;
+	margin-left: auto !important;
 	float:none;
 }
 img.alignleft,
@@ -876,7 +857,7 @@ img.aligncenter {
     width: calc(100% - 110px);
     margin: 0;
     padding: 12px;
-    float: left;
+    float: right;
     background-color: transparent;
     border: none;
   }
@@ -888,7 +869,7 @@ img.aligncenter {
     font-weight: 600;
     text-align: center;
     position: relative;
-    float: left;
+    float: right;
     border-radius: 30px;
     text-shadow: none;
     padding: 10px 0;
@@ -915,7 +896,7 @@ img.aligncenter {
   .sidebar-area .sidebar-widget.widget_block .wp-block-heading{
     position: relative;
     font-size: 25px;
-    margin-left: 60px;
+    margin-right: 60px;
     margin-bottom: 20px;
     color: #000;
   }
@@ -927,7 +908,7 @@ img.aligncenter {
     position: absolute;
     content: "";
     width: 50px;
-    left: -60px;
+    right: -60px;
     height: 2px;
     background: var(--primary-theme-color);
     top: 0;
@@ -939,7 +920,7 @@ img.aligncenter {
     position: absolute;
     content: "";
     width: 10px;
-    left: -60px;
+    right: -60px;
     height: 10px;
     border-radius: 10px;
     background: var(--primary-theme-color);
@@ -974,7 +955,7 @@ img.aligncenter {
     float: none !important;
   }
   .sidebar-area  ol.wp-block-latest-comments{
-    padding-left: 0px !important;
+    padding-right: 0px !important;
     padding: 15px 30px 25px;
     border-radius: 10px;
     border: solid 1px #e4e7ee;
@@ -987,12 +968,12 @@ img.aligncenter {
 /* WOOCOMMERCE */
 /* Cart */
 .wp-block-woocommerce-cart.alignwide{
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
 }
 .wp-block-woocommerce-checkout.alignwide {
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
 }
 .wp-block-woocommerce-cart .wc-block-cart-items{
   border: 1px solid #dee2e6!important;
@@ -1014,10 +995,10 @@ img.aligncenter {
   color: #000 !important;
 }
 .wc-block-cart-items__header-image{
-  padding-left: 16px !important;
+  padding-right: 16px !important;
 }
 .wc-block-cart-items__header-total{
-  padding-right: 16px !important;
+  padding-left: 16px !important;
 }
 .wc-block-components-totals-coupon-link ,
 .wc-block-cart__submit-container a,
@@ -1065,8 +1046,8 @@ tr.wc-block-cart-items__row {
 }
 .wc-block-components-totals-item,
 .wc-block-components-totals-item{
-  padding-left: 16px !important;
   padding-right: 16px !important;
+  padding-left: 16px !important;
 }
 span.wp-block-woocommerce-cart-order-summary-heading-block.wc-block-cart__totals-title{
   display: block !important;
@@ -1087,8 +1068,8 @@ a.wc-block-grid__product-link{
 }
 .wc-block-grid .wc-block-grid__product-onsale, .wc-block-grid__product-image .wc-block-grid__product-onsale {
   top: 10px !important;
-  right: 10px !important;
-  left: auto !important;
+  left: 10px !important;
+  right: auto !important;
   margin: 0 !important;
   line-height: 0 !important;
   background: #121212 !important;
@@ -1165,8 +1146,8 @@ header.woocommerce-Address-title.title{
 
 .woocommerce ul.products li.product .onsale, .woocommerce span.onsale {
   top: 10px;
-  right: 10px;
-  left: auto;
+  left: 10px;
+  right: auto;
   margin: 0;
   line-height: 0;
   background: #121212;
@@ -1175,8 +1156,8 @@ header.woocommerce-Address-title.title{
   min-height: 2em !important;
 }
 .woocommerce span.onsale{
-  left: 10px;
-  right: auto;
+  right: 10px;
+  left: auto;
 }
 h2.woocommerce-loop-product__title {
   font-size: 18px !important;
@@ -1231,7 +1212,7 @@ h2.woocommerce-loop-product__title {
 }
 .woocommerce nav.woocommerce-pagination ul li a {
   display: block;
-  margin: 2px 2px 2px 0;
+  margin: 2px 0 2px 2px;
   padding: 12px 15px;
   text-decoration: none;
   width: auto;
@@ -1262,10 +1243,10 @@ h2.woocommerce-loop-product__title {
 }
 .single-post-category .post-categories li ,.single-post-category ul{
 display: inline-block;
-padding-left: 0px;
+padding-right: 0px;
 }
 .single-post-category .post-categories li a{
-margin-right: 8px;
+margin-left: 8px;
 margin-bottom: 8px;
 background-color:var(--primary-theme-color);
 padding: 8px 10px;
@@ -1283,7 +1264,7 @@ color: #fff;
 .scroll-up {
   position: fixed;
   bottom: 12px;
-  right: 30px;
+  left: 30px;
   z-index: 999;
 }
 .scroll-up a {
@@ -1335,25 +1316,25 @@ color:#fff;
   height: 60px;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
 }
 .diamond span:nth-child(1){
   border: 10px solid var(--primary-theme-color);
-  border-left-color: #000;
   border-right-color: #000;
-  transform: rotateX(90deg) rotateZ(45deg);
+  border-left-color: #000;
+  transform: rotateX(90deg) rotateZ(-45deg);
 }
 .diamond span:nth-child(2){
   border: 6px solid var(--primary-theme-color);
-  border-left-color: #000;
   border-right-color: #000;
-  transform: rotateX(90deg) rotateY(90deg) rotateZ(45deg);
+  border-left-color: #000;
+  transform: rotateX(90deg) rotateY(-90deg) rotateZ(-45deg);
 }
 .diamond span:last-child{
   border: 6px solid var(--primary-theme-color);
-  border-left-color: #000;
   border-right-color: #000;
-  transform: rotateZ(45deg);
+  border-left-color: #000;
+  transform: rotateZ(-45deg);
 }
 @keyframes move{
   0%{ transform: translateY(0) scaleY(0.9); }
@@ -1361,7 +1342,7 @@ color:#fff;
 }
 @keyframes spin{
   0%{ transform: translateY(-50%) rotateX(-15deg) rotateY(0deg); }
-  100%{ transform: translateY(-50%) rotateX(-15deg) rotateY(180deg); }
+  100%{ transform: translateY(-50%) rotateX(-15deg) rotateY(-180deg); }
 }
 .result-search #searchform{
   display: table;
@@ -1403,7 +1384,7 @@ color:#fff;
   height: 287px;
   background: rgba(255, 255, 255, 0.47);
   position: absolute;
-  right: -7%;
+  left: -7%;
   bottom: 40px;
 }
 
@@ -1415,4 +1396,15 @@ body.page-template-frontpage footer{
   text-align: center;
   font-weight: 400 !important;
   font-size: 16px !important;
+}
+ /* Wide Block  */
+  
+ .alignwide {
+  margin-right  : -60px;
+  margin-left : -60px;
+}
+.alignfull {
+  margin-right  : calc( -100vw / 2 + 100% / 2 );
+  margin-left : calc( -100vw / 2 + 100% / 2 );
+  max-width    : 100vw;
 }
