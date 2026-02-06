@@ -36,7 +36,7 @@
           }
           $coming_soon_shortly_col_class = $coming_soon_shortly_active_sidebars > 0 ? 'col-lg-' . (12 / $coming_soon_shortly_active_sidebars) . ' col-md-6 col-sm-12' : 'col-lg-3 col-md-6 col-sm-12';
         ?>
-        <div class="row pt-2">
+        <div class="row pt-2 <?php echo esc_attr( get_theme_mod('coming_soon_enable_footer_animation', true) ? 'zoomInUp wow' : '' ); ?>">
           <?php for ( $coming_soon_shortly_i = 1; $coming_soon_shortly_i <= 4; $coming_soon_shortly_i++ ) : ?>
             <div class="footer-area <?php echo esc_attr($coming_soon_shortly_col_class); ?>">
               <?php if ( $coming_soon_shortly_any_sidebar_active && is_active_sidebar("footer{$coming_soon_shortly_i}-sidebar") ) : ?>
@@ -80,7 +80,7 @@
     </div>
   <?php endif; ?>
   <?php if( get_theme_mod( 'coming_soon_shortly_show_footer_copyright',true)) : ?>
-    <div class="footer-copyright">
+    <div class="footer-copyright  <?php if( get_theme_mod( 'coming_soon_sticky_copyright_enable','off') == 'on') { ?>sticky-copyright<?php } else { ?>close-sticky <?php } ?>">
       <div class="container">
         <div class="row pt-2">
           <div class="col-lg-6 col-md-6 align-self-center">

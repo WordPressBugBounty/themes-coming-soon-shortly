@@ -1,35 +1,33 @@
-# Copyright (C) 2024 wpelemento
+# Copyright (C) 2025 wpelemento
 # This file is distributed under the GNU General Public License v3.0 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Coming Soon Shortly 0.0.7\n"
+"Project-Id-Version: Coming Soon Shortly 0.2.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/coming-soon-shortly\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-08-14T12:29:47+05:30\n"
+"POT-Creation-Date: 2025-12-11T10:55:20+05:30\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.10.0\n"
+"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: coming-soon-shortly\n"
 
 #. Theme Name of the theme
 #: style.css
-#: includes/getstart/getstart.php:5
-#: includes/getstart/getstart.php:61
 msgid "Coming Soon Shortly"
 msgstr ""
 
 #. Theme URI of the theme
 #: style.css
-#: footer.php:58
+#: footer.php:90
 msgid "https://www.wpelemento.com/products/free-coming-soon-wordpress-theme"
 msgstr ""
 
 #. Description of the theme
 #: style.css
-msgid "Coming Soon Shortly is your go-to solution for building anticipation and excitement ahead of your brand's official launch. With its sleek and minimalist design, this WordPress theme offers a tantalizing glimpse into what's in store for your audience. Our theme caters to businesses and individuals preparing for a launch or event, featuring a responsive design with a customizable countdown timer, Mailchimp integration, and minimalist layout options. Whether you're gearing up for a product launch, undergoing maintenance, or announcing upcoming projects, our theme ensures a seamless transition and keeps visitors engaged until the big reveal. Stay tuned for the ultimate coming soon experience with our theme, perfect for building anticipation and excitement around your upcoming product launches, events, and projects. The strategically placed countdown timer creates a sense of urgency, encouraging visitors to mark their calendars for the highly anticipated event. Versatility is a key feature of this theme, catering to a diverse range of industries, from startups to well-established brands. This theme comes with all the necessary tools and features to help you create a stunning website. Its user-friendly customization options provide you with the flexibility to align the theme seamlessly with your brand identity. The intuitive interface empowers you to effortlessly tweak and tailor elements, ensuring a cohesive and on-brand look. As an integral component of your pre-launch marketing strategy, the Coming Soon Shortly WordPress Theme plays a crucial role in creating a captivating and memorable first impression. It sets the stage for a successful unveiling, leaving a lasting impact on your audience and generating buzz that extends far beyond the initial reveal. The Coming Soon Shortly WordPress Theme is your digital curtain, ready to lift and unveil your brand to the world in a way that leaves a lasting impression. Demo: https://preview.wpelemento.com/coming-soon-shortly/"
+msgid "Coming Soon Shortly is your go-to solution for building anticipation and excitement ahead of your brand’s official launch, offering a sleek and minimalist design that provides a tantalizing glimpse into what’s coming next. Perfect for product launch, maintenance mode, under construction pages, launch page, teaser page, landing page, pre-launch campaigns, website launch announcements, upcoming projects, startup previews, event countdowns, brand reveal pages, coming soon screens, and temporary offline pages, this responsive template features a customizable countdown timer, Mailchimp integration, and clean layout options to keep visitors engaged until the big reveal. It ensures a seamless transition during maintenance or development phases while generating buzz and capturing leads through email signup forms and early-interest opt-ins. The strategically placed countdown timer creates urgency, encouraging visitors to mark their calendars for the upcoming event. Versatility is a key advantage, making it suitable for startups, agencies, personal brands, creative portfolios, SaaS products, and well-established companies preparing for launches. The theme offers user-friendly customization with flexible controls for typography, layout, color schemes, and background styles, allowing a cohesive and on-brand appearance without technical expertise. It integrates smoothly with essential plugins like Contact Form 7 for lead capture, WooCommerce for pre-launch deposits or early-bird sales, Yoast SEO for visibility, popup and newsletter plugins for audience growth, and maintenance-mode tools such as SeedProd, Coming Soon Page & Maintenance Mode, and Minimal Coming Soon for advanced functionality. As a cornerstone of your pre-launch marketing strategy, Coming Soon Shortly plays a crucial role in creating a memorable first impression, driving excitement, and setting the stage for a successful unveiling. Demo: https://preview.wpelemento.com/coming-soon-shortly/"
 msgstr ""
 
 #. Author of the theme
@@ -43,22 +41,24 @@ msgid "https://www.wpelemento.com/"
 msgstr ""
 
 #: 404.php:15
-#: includes/customizer.php:646
+#: includes/customizer.php:1203
 msgid "404 Error!"
 msgstr ""
 
 #: 404.php:28
-#: includes/customizer.php:661
+#: includes/customizer.php:1218
 msgid "The page you are looking for may have been moved, deleted, or possibly never existed."
 msgstr ""
 
 #. translators: %s: post title
 #: comments.php:27
+#, php-format
 msgid "One thought on &ldquo;%s&rdquo;"
 msgstr ""
 
 #. translators: 1: number of comments, 2: post title
 #: comments.php:32
+#, php-format
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
@@ -84,139 +84,188 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
+#: footer.php:46
+msgid "footer1"
+msgstr ""
+
+#: footer.php:47
+#: searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: footer.php:52
+msgid "footer2"
+msgstr ""
+
+#: footer.php:53
+#: sidebar.php:15
+msgid "Archives"
+msgstr ""
+
 #: footer.php:59
-#: includes/getstart/getstart.php:172
+msgid "footer3"
+msgstr ""
+
+#: footer.php:60
+#: sidebar.php:21
+msgid "Meta"
+msgstr ""
+
+#: footer.php:68
+msgid "footer4"
+msgstr ""
+
+#: footer.php:69
+msgid "Categories"
+msgstr ""
+
+#: footer.php:91
 msgid "Coming Soon Shortly WordPress Theme"
 msgstr ""
 
 #. translators: %s: WP Elemento
-#: footer.php:68
+#: footer.php:100
+#, php-format
 msgid " By %s"
 msgstr ""
 
-#: footer.php:74
+#: footer.php:106
 msgid "https://wordpress.org"
 msgstr ""
 
 #. translators: %s: WordPress
-#: footer.php:74
+#: footer.php:106
+#, php-format
 msgid "Proudly powered by %s"
 msgstr ""
 
-#: functions.php:111
+#: functions.php:119
 msgid "Main menu"
 msgstr ""
 
-#: functions.php:144
+#: functions.php:152
 msgid "Default Header Image"
 msgstr ""
 
-#: functions.php:177
+#: functions.php:182
 msgid "Welcome to WPElemento"
 msgstr ""
 
-#: functions.php:178
+#: functions.php:183
 msgid "Thank you for choosing Coming Soon Shortly theme .To setup the theme, please visit the get started page."
 msgstr ""
 
-#: functions.php:179
+#: functions.php:184
 msgid "GET STARTED"
 msgstr ""
 
-#: functions.php:203
+#: functions.php:185
+msgid "BUY NOW"
+msgstr ""
+
+#: functions.php:186
+msgid "DEMO"
+msgstr ""
+
+#: functions.php:209
 msgid "Pingback:"
 msgstr ""
 
-#: functions.php:204
-#: functions.php:224
+#: functions.php:210
+#: functions.php:230
+#: template-parts/content-page.php:23
+#: template-parts/content-post.php:34
+#: template-parts/content.php:54
+#: template-parts/content.php:98
 msgid "Edit"
 msgstr ""
 
 #. translators: %s: Date
-#: functions.php:221
+#: functions.php:227
+#, php-format
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: functions.php:229
+#: functions.php:235
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: functions.php:262
+#: functions.php:268
 msgid "Sidebar"
 msgstr ""
 
-#: functions.php:264
-#: functions.php:276
+#: functions.php:270
+#: functions.php:282
 msgid "This sidebar will be shown next to the content."
 msgstr ""
 
-#: functions.php:274
+#: functions.php:280
 msgid "Page Sidebar"
 msgstr ""
 
-#: functions.php:286
+#: functions.php:292
 msgid "Sidebar three"
 msgstr ""
 
-#: functions.php:288
+#: functions.php:294
 msgid "This sidebar will be shown on blog pages."
 msgstr ""
 
-#: functions.php:298
+#: functions.php:304
 msgid "Footer sidebar 1"
 msgstr ""
 
-#: functions.php:300
+#: functions.php:306
 msgid "It appears in the footer 1."
 msgstr ""
 
-#: functions.php:310
+#: functions.php:316
 msgid "Footer sidebar 2"
 msgstr ""
 
-#: functions.php:312
+#: functions.php:318
 msgid "It appears in the footer 2."
 msgstr ""
 
-#: functions.php:322
+#: functions.php:328
 msgid "Footer sidebar 3"
 msgstr ""
 
-#: functions.php:324
+#: functions.php:330
 msgid "It appears in the footer 3."
 msgstr ""
 
-#: functions.php:334
+#: functions.php:340
 msgid "Footer sidebar 4"
 msgstr ""
 
-#: functions.php:336
+#: functions.php:342
 msgid "It appears in the footer 4."
 msgstr ""
 
-#: functions.php:441
+#: functions.php:458
 msgid "https://preview.wpelemento.com/theme-documentation/coming-soon-shortly/"
 msgstr ""
 
-#: functions.php:442
+#: functions.php:459
 msgid "https://wordpress.org/support/theme/coming-soon-shortly/"
 msgstr ""
 
-#: functions.php:443
+#: functions.php:460
 msgid "https://wordpress.org/support/theme/coming-soon-shortly/reviews/"
 msgstr ""
 
-#: functions.php:444
+#: functions.php:461
 #: includes/customizer.php:104
-#: includes/customizer.php:858
+#: includes/customizer.php:1473
 msgid "https://www.wpelemento.com/products/coming-soon-wordpress-theme"
 msgstr ""
 
-#: functions.php:445
+#: functions.php:462
 msgid "https://preview.wpelemento.com/coming-soon-shortly/"
 msgstr ""
 
-#: functions.php:446
+#: functions.php:463
 msgid "https://www.wpelemento.com/products/wordpress-theme-bundle"
 msgstr ""
 
@@ -242,13 +291,15 @@ msgstr ""
 
 #: includes/customizer.php:39
 #: includes/customizer.php:52
-#: includes/customizer.php:742
+#: includes/customizer.php:1324
+#: includes/customizer.php:1345
 msgid "Enable"
 msgstr ""
 
 #: includes/customizer.php:40
 #: includes/customizer.php:53
-#: includes/customizer.php:743
+#: includes/customizer.php:1325
+#: includes/customizer.php:1346
 msgid "Disable"
 msgstr ""
 
@@ -281,580 +332,578 @@ msgid "Priority Support"
 msgstr ""
 
 #: includes/customizer.php:104
-#: includes/customizer.php:858
+#: includes/customizer.php:1473
 msgid "....and Much More"
 msgstr ""
 
 #: includes/customizer.php:104
-#: includes/customizer.php:858
+#: includes/customizer.php:1473
 msgid "Upgrade for more"
 msgstr ""
 
-#: includes/customizer.php:111
-msgid "Theme Options"
+#: includes/customizer.php:110
+msgid "Color Option"
+msgstr ""
+
+#: includes/customizer.php:116
+msgid "Theme color"
 msgstr ""
 
 #: includes/customizer.php:117
-msgid "Woocommerce Settings"
+msgid "To customize the colors of the homepage, use the Elementor editor"
 msgstr ""
 
-#: includes/customizer.php:118
-msgid "Woocommerce Settings of themes"
+#: includes/customizer.php:127
+msgid "Typography"
 msgstr ""
 
-#: includes/customizer.php:126
-msgid "Enable/Disable Shop Page Sidebar"
+#: includes/customizer.php:133
+msgid "Heading 1"
 msgstr ""
 
-#: includes/customizer.php:134
-msgid "Shop Page Layouts"
+#: includes/customizer.php:142
+msgid "Heading 1 Typography"
 msgstr ""
 
-#: includes/customizer.php:139
-#: includes/customizer.php:196
-#: includes/customizer.php:328
-#: includes/customizer.php:474
-msgid "Right Sidebar"
+#: includes/customizer.php:169
+msgid "Heading 2"
 msgstr ""
 
-#: includes/customizer.php:140
-#: includes/customizer.php:197
-#: includes/customizer.php:327
-#: includes/customizer.php:473
-msgid "Left Sidebar"
+#: includes/customizer.php:178
+msgid "Heading 2 Typography"
 msgstr ""
 
-#: includes/customizer.php:154
-msgid "Products Per Row"
+#: includes/customizer.php:205
+msgid "Heading 3"
 msgstr ""
 
-#: includes/customizer.php:168
-msgid "Products Per Page"
+#: includes/customizer.php:214
+msgid "Heading 3 Typography"
 msgstr ""
 
-#: includes/customizer.php:183
-msgid "Enable / Disable Single Product Sidebar"
-msgstr ""
-
-#: includes/customizer.php:191
-msgid "Single Product Layout"
-msgstr ""
-
-#: includes/customizer.php:212
-msgid "Products Button Border Radius"
-msgstr ""
-
-#: includes/customizer.php:240
-msgid "Sale Badge Position"
+#: includes/customizer.php:241
+msgid "Heading 4"
 msgstr ""
 
 #: includes/customizer.php:250
-msgid "Right"
+msgid "Heading 4 Typography"
 msgstr ""
 
-#: includes/customizer.php:251
-msgid "Left"
+#: includes/customizer.php:277
+msgid "Heading 5"
 msgstr ""
 
-#: includes/customizer.php:259
-msgid "Sale Font Size"
+#: includes/customizer.php:286
+msgid "Heading 5 Typography"
 msgstr ""
 
-#: includes/customizer.php:280
-msgid "Additional Settings"
+#: includes/customizer.php:313
+msgid "Heading 6"
 msgstr ""
 
-#: includes/customizer.php:284
-msgid "General"
-msgstr ""
-
-#: includes/customizer.php:287
-#: includes/getstart/getstart.php:148
-msgid "Header Image"
-msgstr ""
-
-#: includes/customizer.php:296
-msgid "Here you can enable or disable your preloader."
-msgstr ""
-
-#: includes/customizer.php:306
-msgid "Here you can enable or disable your scroller."
-msgstr ""
-
-#: includes/customizer.php:317
-msgid "Single Page Layout"
-msgstr ""
-
-#: includes/customizer.php:329
-#: includes/customizer.php:475
-msgid "One Column"
-msgstr ""
-
-#: includes/customizer.php:338
-msgid "Header Image Attachment"
-msgstr ""
-
-#: includes/customizer.php:348
-msgid "Scroll"
+#: includes/customizer.php:322
+msgid "Heading 6 Typography"
 msgstr ""
 
 #: includes/customizer.php:349
-msgid "Fixed"
+msgid "Content Typography"
 msgstr ""
 
-#: includes/customizer.php:364
-msgid "Header Image height"
+#: includes/customizer.php:358
+msgid "Content  Typography"
 msgstr ""
 
-#: includes/customizer.php:369
-msgid "Image Height"
+#: includes/customizer.php:382
+msgid "Theme Options"
 msgstr ""
 
-#: includes/customizer.php:370
-msgid "Enter a value in pixels. Example:500px"
+#: includes/customizer.php:388
+msgid "Woocommerce Settings"
 msgstr ""
 
-#: includes/customizer.php:399
-msgid "Header Image Overlay"
+#: includes/customizer.php:389
+msgid "Woocommerce Settings of themes"
 msgstr ""
 
-#: includes/customizer.php:404
-msgid "Overlay Color"
+#: includes/customizer.php:397
+msgid "Enable/Disable Shop Page Sidebar"
+msgstr ""
+
+#: includes/customizer.php:405
+msgid "Shop Page Layouts"
+msgstr ""
+
+#: includes/customizer.php:410
+#: includes/customizer.php:467
+#: includes/customizer.php:828
+#: includes/customizer.php:993
+msgid "Right Sidebar"
+msgstr ""
+
+#: includes/customizer.php:411
+#: includes/customizer.php:468
+#: includes/customizer.php:827
+#: includes/customizer.php:992
+msgid "Left Sidebar"
 msgstr ""
 
 #: includes/customizer.php:425
-msgid "Enable / Disable Header Image Page Title."
+msgid "Products Per Row"
 msgstr ""
 
-#: includes/customizer.php:435
-msgid "Enable / Disable Header Image Breadcrumb."
+#: includes/customizer.php:439
+msgid "Products Per Page"
 msgstr ""
 
-#: includes/customizer.php:444
-msgid "Post Settings"
+#: includes/customizer.php:454
+msgid "Enable / Disable Single Product Sidebar"
 msgstr ""
 
-#: includes/customizer.php:445
-msgid "Here you can add post information."
+#: includes/customizer.php:462
+msgid "Single Product Layout"
 msgstr ""
 
-#: includes/customizer.php:449
-msgid "Blog Post"
+#: includes/customizer.php:483
+msgid "Products Button Border Radius"
 msgstr ""
 
-#: includes/customizer.php:452
-msgid "Single Post"
+#: includes/customizer.php:511
+msgid "Sale Badge Position"
 msgstr ""
 
-#: includes/customizer.php:463
-msgid "Blog Layout"
+#: includes/customizer.php:521
+msgid "Right"
 msgstr ""
 
-#: includes/customizer.php:476
-msgid "Three Columns"
+#: includes/customizer.php:522
+msgid "Left"
 msgstr ""
 
-#: includes/customizer.php:477
-msgid "Four Columns"
+#: includes/customizer.php:530
+msgid "Sale Font Size"
 msgstr ""
 
-#: includes/customizer.php:485
-msgid "Enable / Disable Post Date"
+#: includes/customizer.php:552
+msgid "Related Product"
 msgstr ""
 
-#: includes/customizer.php:495
-msgid "Enable / Disable Post Author"
+#: includes/customizer.php:559
+msgid "Enable or Disable Related Product"
 msgstr ""
 
-#: includes/customizer.php:505
-msgid "Enable / Disable Post Comment"
+#: includes/customizer.php:568
+msgid "Additional Settings"
 msgstr ""
 
-#: includes/customizer.php:515
-msgid "Enable / Disable Post Image"
+#: includes/customizer.php:572
+msgid "General"
 msgstr ""
 
-#: includes/customizer.php:526
-msgid "Blog Post Content Limit"
+#: includes/customizer.php:575
+msgid "Header Image"
 msgstr ""
 
-#: includes/customizer.php:547
-msgid "Enable / Disable Single Post Date"
+#: includes/customizer.php:584
+msgid "Here you can enable or disable your preloader."
 msgstr ""
 
-#: includes/customizer.php:557
-msgid "Enable / Disable Single Post Author"
+#: includes/customizer.php:594
+msgid "Here you can enable or disable your scroller."
 msgstr ""
 
-#: includes/customizer.php:567
-msgid "Enable / Disable Single Post Comment"
-msgstr ""
-
-#: includes/customizer.php:576
-msgid "Enable / Disable Single Post Tag"
-msgstr ""
-
-#: includes/customizer.php:586
-msgid "Enable / Disable Single Post Category"
-msgstr ""
-
-#: includes/customizer.php:597
-msgid "Enable / Disable Single Post Image"
-msgstr ""
-
-#: includes/customizer.php:608
-msgid "Single Post Image Border Radius(px)"
+#: includes/customizer.php:605
+#: includes/customizer.php:963
+msgid "Animation"
 msgstr ""
 
 #: includes/customizer.php:613
-msgid "Enter a value in pixels. Example:15px"
+msgid "Enable or Disable Sidebar Animation"
 msgstr ""
 
-#: includes/customizer.php:629
-msgid "404 & No Results Page Settings"
+#: includes/customizer.php:623
+msgid "Enable or Disable Footer Animation"
 msgstr ""
 
-#: includes/customizer.php:638
-msgid "404 Page Title"
+#: includes/customizer.php:634
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: includes/customizer.php:642
+msgid "Enable or Disable Sticky Sidebar"
 msgstr ""
 
 #: includes/customizer.php:653
+msgid "Scroll To Top Position"
+msgstr ""
+
+#: includes/customizer.php:663
+#: includes/customizer.php:1401
+#: includes/customizer.php:1519
+msgid "left"
+msgstr ""
+
+#: includes/customizer.php:664
+#: includes/customizer.php:1399
+#: includes/customizer.php:1517
+msgid "center"
+msgstr ""
+
+#: includes/customizer.php:665
+#: includes/customizer.php:1400
+#: includes/customizer.php:1518
+msgid "right"
+msgstr ""
+
+#: includes/customizer.php:674
+msgid "Scroll To Top Border Radius"
+msgstr ""
+
+#: includes/customizer.php:702
+msgid "Dot Cursor"
+msgstr ""
+
+#: includes/customizer.php:710
+msgid "Enable or Disable Dot Cursor"
+msgstr ""
+
+#: includes/customizer.php:721
+msgid "Progress Bar"
+msgstr ""
+
+#: includes/customizer.php:729
+msgid "Enable or Disable Progress Bar"
+msgstr ""
+
+#: includes/customizer.php:740
+msgid "Progress Bar Position"
+msgstr ""
+
+#: includes/customizer.php:758
+msgid "Top"
+msgstr ""
+
+#: includes/customizer.php:759
+msgid "Bottom"
+msgstr ""
+
+#: includes/customizer.php:775
+msgid "Progress Bar Color"
+msgstr ""
+
+#: includes/customizer.php:789
+msgid "Color"
+msgstr ""
+
+#: includes/customizer.php:817
+msgid "Single Page Layout"
+msgstr ""
+
+#: includes/customizer.php:829
+#: includes/customizer.php:994
+msgid "One Column"
+msgstr ""
+
+#: includes/customizer.php:838
+msgid "Header Image Attachment"
+msgstr ""
+
+#: includes/customizer.php:848
+msgid "Scroll"
+msgstr ""
+
+#: includes/customizer.php:849
+msgid "Fixed"
+msgstr ""
+
+#: includes/customizer.php:864
+msgid "Header Image height"
+msgstr ""
+
+#: includes/customizer.php:869
+msgid "Image Height"
+msgstr ""
+
+#: includes/customizer.php:870
+msgid "Enter a value in pixels. Example:500px"
+msgstr ""
+
+#: includes/customizer.php:899
+msgid "Header Image Overlay"
+msgstr ""
+
+#: includes/customizer.php:904
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/customizer.php:925
+msgid "Enable / Disable Header Image Page Title."
+msgstr ""
+
+#: includes/customizer.php:935
+msgid "Enable / Disable Header Image Breadcrumb."
+msgstr ""
+
+#: includes/customizer.php:944
+msgid "Post Settings"
+msgstr ""
+
+#: includes/customizer.php:945
+msgid "Here you can add post information."
+msgstr ""
+
+#: includes/customizer.php:949
+msgid "Blog Post"
+msgstr ""
+
+#: includes/customizer.php:952
+msgid "Single Post"
+msgstr ""
+
+#: includes/customizer.php:971
+msgid "Enable or Disable Blog Post Animation"
+msgstr ""
+
+#: includes/customizer.php:982
+msgid "Blog Layout"
+msgstr ""
+
+#: includes/customizer.php:995
+msgid "Three Columns"
+msgstr ""
+
+#: includes/customizer.php:996
+msgid "Four Columns"
+msgstr ""
+
+#: includes/customizer.php:1004
+msgid "Enable / Disable Post Date"
+msgstr ""
+
+#: includes/customizer.php:1014
+msgid "Enable / Disable Post Author"
+msgstr ""
+
+#: includes/customizer.php:1024
+msgid "Enable / Disable Post Comment"
+msgstr ""
+
+#: includes/customizer.php:1034
+msgid "Enable / Disable Post Image"
+msgstr ""
+
+#: includes/customizer.php:1045
+msgid "Blog Post Content Limit"
+msgstr ""
+
+#: includes/customizer.php:1067
+msgid "Blog Post Pagination"
+msgstr ""
+
+#: includes/customizer.php:1075
+msgid "Enable or Disable Blog Post Pagination"
+msgstr ""
+
+#: includes/customizer.php:1085
+msgid "Enable / Disable Single Post Date"
+msgstr ""
+
+#: includes/customizer.php:1095
+msgid "Enable / Disable Single Post Author"
+msgstr ""
+
+#: includes/customizer.php:1105
+msgid "Enable / Disable Single Post Comment"
+msgstr ""
+
+#: includes/customizer.php:1114
+msgid "Enable / Disable Single Post Tag"
+msgstr ""
+
+#: includes/customizer.php:1124
+msgid "Enable / Disable Single Post Category"
+msgstr ""
+
+#: includes/customizer.php:1135
+msgid "Enable / Disable Single Post Image"
+msgstr ""
+
+#: includes/customizer.php:1146
+msgid "Single Post Image Border Radius(px)"
+msgstr ""
+
+#: includes/customizer.php:1151
+msgid "Enter a value in pixels. Example:15px"
+msgstr ""
+
+#: includes/customizer.php:1169
+msgid "Related post"
+msgstr ""
+
+#: includes/customizer.php:1177
+msgid "Enable or Disable Related post"
+msgstr ""
+
+#: includes/customizer.php:1186
+msgid "404 & No Results Page Settings"
+msgstr ""
+
+#: includes/customizer.php:1195
+msgid "404 Page Title"
+msgstr ""
+
+#: includes/customizer.php:1210
 msgid "404 Page Text"
 msgstr ""
 
-#: includes/customizer.php:675
+#: includes/customizer.php:1232
 msgid "No Results Title"
 msgstr ""
 
-#: includes/customizer.php:683
+#: includes/customizer.php:1240
 #: no-results.php:10
 msgid "Nothing Found"
 msgstr ""
 
-#: includes/customizer.php:690
+#: includes/customizer.php:1247
 msgid "No Results Content"
 msgstr ""
 
-#: includes/customizer.php:698
+#: includes/customizer.php:1255
 #: no-results.php:23
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
-#: includes/customizer.php:704
+#: includes/customizer.php:1261
 msgid "Footer Settings"
 msgstr ""
 
-#: includes/customizer.php:705
+#: includes/customizer.php:1262
 msgid "Here you can change copyright text"
 msgstr ""
 
-#: includes/customizer.php:714
-msgid "Footer Copyright Text"
+#: includes/customizer.php:1271
+msgid "Enable / Disable"
 msgstr ""
 
-#: includes/customizer.php:730
-msgid "Enable / Disable Footer Link"
-msgstr ""
-
-#: includes/customizer.php:737
-msgid "Section Enable / Disable"
-msgstr ""
-
-#: includes/customizer.php:751
-msgid "Footer Widget Background"
-msgstr ""
-
-#: includes/customizer.php:780
-msgid "Footer Widget Alignment"
-msgstr ""
-
-#: includes/customizer.php:789
-#: includes/customizer.php:902
-msgid "center"
-msgstr ""
-
-#: includes/customizer.php:790
-#: includes/customizer.php:903
-msgid "right"
-msgstr ""
-
-#: includes/customizer.php:791
-#: includes/customizer.php:904
-msgid "left"
-msgstr ""
-
-#: includes/customizer.php:805
-msgid "Copyright Background Color"
-msgstr ""
-
-#: includes/customizer.php:812
-msgid "Background Color"
-msgstr ""
-
-#: includes/customizer.php:831
-msgid "Copyright Text Color"
-msgstr ""
-
-#: includes/customizer.php:838
-msgid "Text Color"
-msgstr ""
-
-#: includes/customizer.php:858
-msgid "Elevate your footer with premium features:"
-msgstr ""
-
-#: includes/customizer.php:858
-msgid "Tailor your footer layout"
-msgstr ""
-
-#: includes/customizer.php:858
-msgid "Integrate an email subscription form"
-msgstr ""
-
-#: includes/customizer.php:858
-msgid "Personalize social media icons"
-msgstr ""
-
-#: includes/customizer.php:864
-#: includes/customizer.php:928
-msgid "Footer Social Icons"
-msgstr ""
-
-#: includes/customizer.php:873
-msgid "Enable or Disable your Footer Social Icon"
-msgstr ""
-
-#: includes/customizer.php:880
-msgid "Enable or Disable Social Icon."
-msgstr ""
-
-#: includes/customizer.php:890
-msgid "Footer Social Media Text Align"
-msgstr ""
-
-#: includes/customizer.php:898
-msgid "Text Align"
-msgstr ""
-
-#: includes/customizer.php:919
-msgid "Footer Social Media Link"
-msgstr ""
-
-#: includes/customizer.php:931
-msgid "Add New Social Icon"
-msgstr ""
-
-#: includes/customizer.php:937
-msgid "Icon"
-msgstr ""
-
-#: includes/customizer.php:938
-msgid "Add the fontawesome class ex: \"fab fa-facebook-f\"."
-msgstr ""
-
-#: includes/customizer.php:938
-msgid "View All"
-msgstr ""
-
-#: includes/customizer.php:943
-msgid "Social Link"
-msgstr ""
-
-#: includes/customizer.php:944
-msgid "Add the social icon url here."
-msgstr ""
-
-#: includes/getstart/getstart.php:64
-#: includes/tgm/class-tgm-plugin-activation.php:2547
-msgid "Version"
-msgstr ""
-
-#: includes/getstart/getstart.php:72
-msgid "Setup With Elementor"
-msgstr ""
-
-#: includes/getstart/getstart.php:73
-msgid "Setup With Customizer"
-msgstr ""
-
-#: includes/getstart/getstart.php:74
-msgid "Changelog"
-msgstr ""
-
-#: includes/getstart/getstart.php:98
-msgid "Welcome to WPElemento Theme!"
-msgstr ""
-
-#: includes/getstart/getstart.php:99
-msgid "Click on the quick start button to import the demo."
-msgstr ""
-
-#: includes/getstart/getstart.php:101
-msgid "Quick Start"
-msgstr ""
-
-#: includes/getstart/getstart.php:110
-msgid "Theme Customizer"
-msgstr ""
-
-#: includes/getstart/getstart.php:111
-msgid "To begin customizing your website, start by clicking \"Customize\"."
-msgstr ""
-
-#: includes/getstart/getstart.php:113
-msgid "Customizing"
-msgstr ""
-
-#: includes/getstart/getstart.php:116
-msgid "Help Docs"
-msgstr ""
-
-#: includes/getstart/getstart.php:117
-msgid "The complete procedure to configure and manage a WordPress Website from the beginning is shown in this documentation ."
-msgstr ""
-
-#: includes/getstart/getstart.php:119
-#: includes/go-pro/class-upgrade-pro.php:88
-msgid "Documentation"
-msgstr ""
-
-#: includes/getstart/getstart.php:122
-msgid "Need Support?"
-msgstr ""
-
-#: includes/getstart/getstart.php:123
-msgid "Our dedicated team is well prepared to help you out in case of queries and doubts regarding our theme."
-msgstr ""
-
-#: includes/getstart/getstart.php:125
-msgid "Support Forum"
-msgstr ""
-
-#: includes/getstart/getstart.php:128
-msgid "Reviews & Testimonials"
-msgstr ""
-
-#: includes/getstart/getstart.php:129
-msgid "All the features and aspects of this WordPress Theme are phenomenal. I'd recommend this theme to all."
-msgstr ""
-
-#: includes/getstart/getstart.php:131
-msgid "Review"
-msgstr ""
-
-#: includes/getstart/getstart.php:135
-msgid "Link to customizer"
-msgstr ""
-
-#: includes/getstart/getstart.php:139
-msgid "Upload your logo"
-msgstr ""
-
-#: includes/getstart/getstart.php:142
-msgid "Menus"
-msgstr ""
-
-#: includes/getstart/getstart.php:151
+#: includes/customizer.php:1278
 msgid "Footer Widget"
 msgstr ""
 
-#: includes/getstart/getstart.php:169
-msgid "Premium Theme"
+#: includes/customizer.php:1287
+msgid "Footer Copyright"
 msgstr ""
 
-#: includes/getstart/getstart.php:174
-msgid "Buy Premium"
+#: includes/customizer.php:1297
+msgid "Footer Copyright Text"
 msgstr ""
 
-#: includes/getstart/getstart.php:176
-msgid "Live Demo"
+#: includes/customizer.php:1313
+msgid "Footer Sticky Copyright"
 msgstr ""
 
-#: includes/getstart/getstart.php:178
-msgid "Theme Bundle"
+#: includes/customizer.php:1319
+msgid " Sticky Copyright Section Enable / Disable"
 msgstr ""
 
-#: includes/getstart/getstart.php:184
-msgid "premium Features"
+#: includes/customizer.php:1333
+msgid "Enable / Disable Footer Link"
 msgstr ""
 
-#: includes/getstart/getstart.php:186
-msgid "Multilingual"
+#: includes/customizer.php:1340
+msgid "Section Enable / Disable"
 msgstr ""
 
-#: includes/getstart/getstart.php:187
-msgid "Drag and drop features"
+#: includes/customizer.php:1354
+msgid "Footer Widget Background"
 msgstr ""
 
-#: includes/getstart/getstart.php:188
-msgid "Zero Coding Required"
+#: includes/customizer.php:1383
+msgid "Footer Widget Alignment"
 msgstr ""
 
-#: includes/getstart/getstart.php:189
-msgid "Mobile Friendly Layout"
+#: includes/customizer.php:1396
+msgid "Widget Alignment"
 msgstr ""
 
-#: includes/getstart/getstart.php:190
-msgid "Responsive Layout"
+#: includes/customizer.php:1420
+msgid "Copyright Background Color"
 msgstr ""
 
-#: includes/getstart/getstart.php:191
-msgid "Unique Designs"
+#: includes/customizer.php:1427
+msgid "Background Color"
 msgstr ""
 
-#: includes/getstart/getstart.php:195
-msgid "Use Coupon Code"
+#: includes/customizer.php:1446
+msgid "Copyright Text Color"
 msgstr ""
 
-#: includes/getstart/getstart.php:196
-msgid "UPGRADE NOW"
+#: includes/customizer.php:1453
+msgid "Text Color"
 msgstr ""
 
-#: includes/getstart/getstart.php:198
-msgid "elemento20"
+#: includes/customizer.php:1473
+msgid "Elevate your footer with premium features:"
 msgstr ""
 
-#: includes/getstart/plugin-activation.php:40
-#: includes/tgm/tgm.php:17
-msgid "WPElemento Importer"
+#: includes/customizer.php:1473
+msgid "Tailor your footer layout"
 msgstr ""
 
-#: includes/getstart/plugin-activation.php:43
-msgid "We highly recommend installing the WPElemento Importer plugin for importing the demo content with Elementor."
+#: includes/customizer.php:1473
+msgid "Integrate an email subscription form"
 msgstr ""
 
-#: includes/getstart/plugin-activation.php:53
-msgid "Installing"
+#: includes/customizer.php:1473
+msgid "Personalize social media icons"
 msgstr ""
 
-#: includes/getstart/plugin-activation.php:54
-msgid "Activating"
+#: includes/customizer.php:1479
+#: includes/customizer.php:1543
+msgid "Footer Social Icons"
 msgstr ""
 
-#: includes/getstart/plugin-activation.php:55
-msgid "Error"
+#: includes/customizer.php:1488
+msgid "Enable or Disable your Footer Social Icon"
 msgstr ""
 
-#: includes/getstart/plugin-activation.php:129
-msgid "Install %s Now"
+#: includes/customizer.php:1495
+msgid "Enable or Disable Social Icon."
 msgstr ""
 
-#: includes/getstart/plugin-activation.php:131
-msgid "Install & Activate"
+#: includes/customizer.php:1505
+msgid "Footer Social Media Text Align"
 msgstr ""
 
-#: includes/getstart/plugin-activation.php:148
-msgid "Activate %s Now"
+#: includes/customizer.php:1513
+msgid "Text Align"
 msgstr ""
 
-#: includes/getstart/plugin-activation.php:150
-#: includes/tgm/class-tgm-plugin-activation.php:2720
-msgid "Activate"
+#: includes/customizer.php:1534
+msgid "Footer Social Media Link"
 msgstr ""
 
-#: includes/getstart/plugin-activation.php:153
-#: includes/tgm/class-tgm-plugin-activation.php:2315
-msgid "Active"
+#: includes/customizer.php:1546
+msgid "Add New Social Icon"
+msgstr ""
+
+#: includes/customizer.php:1552
+msgid "Icon"
+msgstr ""
+
+#: includes/customizer.php:1553
+msgid "Add the fontawesome class ex: \"fab fa-facebook-f\"."
+msgstr ""
+
+#: includes/customizer.php:1553
+msgid "View All"
+msgstr ""
+
+#: includes/customizer.php:1558
+msgid "Social Link"
+msgstr ""
+
+#: includes/customizer.php:1559
+msgid "Add the social icon url here."
 msgstr ""
 
 #: includes/go-pro/class-upgrade-pro.php:75
@@ -863,6 +912,10 @@ msgstr ""
 
 #: includes/go-pro/class-upgrade-pro.php:76
 msgid "GO PRO"
+msgstr ""
+
+#: includes/go-pro/class-upgrade-pro.php:88
+msgid "Documentation"
 msgstr ""
 
 #: includes/go-pro/class-upgrade-pro.php:89
@@ -887,11 +940,13 @@ msgstr ""
 
 #. translators: %s: plugin name.
 #: includes/tgm/class-tgm-plugin-activation.php:330
+#, php-format
 msgid "Installing Plugin: %s"
 msgstr ""
 
 #. translators: %s: plugin name.
 #: includes/tgm/class-tgm-plugin-activation.php:332
+#, php-format
 msgid "Updating Plugin: %s"
 msgstr ""
 
@@ -901,6 +956,7 @@ msgstr ""
 
 #. translators: 1: plugin name(s).
 #: includes/tgm/class-tgm-plugin-activation.php:334
+#, php-format
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] ""
@@ -908,6 +964,7 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: includes/tgm/class-tgm-plugin-activation.php:340
+#, php-format
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] ""
@@ -915,6 +972,7 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: includes/tgm/class-tgm-plugin-activation.php:346
+#, php-format
 msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
 msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
 msgstr[0] ""
@@ -922,6 +980,7 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: includes/tgm/class-tgm-plugin-activation.php:352
+#, php-format
 msgid "There is an update available for: %1$s."
 msgid_plural "There are updates available for the following plugins: %1$s."
 msgstr[0] ""
@@ -929,6 +988,7 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: includes/tgm/class-tgm-plugin-activation.php:358
+#, php-format
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
@@ -936,6 +996,7 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: includes/tgm/class-tgm-plugin-activation.php:364
+#, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
@@ -984,16 +1045,19 @@ msgstr[1] ""
 
 #. translators: 1: plugin name.
 #: includes/tgm/class-tgm-plugin-activation.php:390
+#, php-format
 msgid "No action taken. Plugin %1$s was already active."
 msgstr ""
 
 #. translators: 1: plugin name.
 #: includes/tgm/class-tgm-plugin-activation.php:392
+#, php-format
 msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
 msgstr ""
 
 #. translators: 1: dashboard link.
 #: includes/tgm/class-tgm-plugin-activation.php:394
+#, php-format
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
@@ -1038,10 +1102,16 @@ msgstr ""
 
 #. translators: %s: version number
 #: includes/tgm/class-tgm-plugin-activation.php:1976
+#, php-format
 msgid "TGMPA v%s"
 msgstr ""
 
 #: includes/tgm/class-tgm-plugin-activation.php:2267
+#: woocommerce/myaccount/form-login.php:39
+#: woocommerce/myaccount/form-login.php:43
+#: woocommerce/myaccount/form-login.php:79
+#: woocommerce/myaccount/form-login.php:86
+#: woocommerce/myaccount/form-login.php:93
 msgid "Required"
 msgstr ""
 
@@ -1069,6 +1139,10 @@ msgstr ""
 msgid "Installed But Not Activated"
 msgstr ""
 
+#: includes/tgm/class-tgm-plugin-activation.php:2315
+msgid "Active"
+msgstr ""
+
 #: includes/tgm/class-tgm-plugin-activation.php:2321
 msgid "Required Update not Available"
 msgstr ""
@@ -1083,12 +1157,14 @@ msgstr ""
 
 #. translators: 1: install status, 2: update status
 #: includes/tgm/class-tgm-plugin-activation.php:2336
+#, php-format
 msgctxt "Install/Update Status"
 msgid "%1$s, %2$s"
 msgstr ""
 
 #. translators: 1: number of plugins.
 #: includes/tgm/class-tgm-plugin-activation.php:2382
+#, php-format
 msgctxt "plugins"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
@@ -1097,6 +1173,7 @@ msgstr[1] ""
 
 #. translators: 1: number of plugins.
 #: includes/tgm/class-tgm-plugin-activation.php:2386
+#, php-format
 msgid "To Install <span class=\"count\">(%s)</span>"
 msgid_plural "To Install <span class=\"count\">(%s)</span>"
 msgstr[0] ""
@@ -1104,6 +1181,7 @@ msgstr[1] ""
 
 #. translators: 1: number of plugins.
 #: includes/tgm/class-tgm-plugin-activation.php:2390
+#, php-format
 msgid "Update Available <span class=\"count\">(%s)</span>"
 msgid_plural "Update Available <span class=\"count\">(%s)</span>"
 msgstr[0] ""
@@ -1111,6 +1189,7 @@ msgstr[1] ""
 
 #. translators: 1: number of plugins.
 #: includes/tgm/class-tgm-plugin-activation.php:2394
+#, php-format
 msgid "To Activate <span class=\"count\">(%s)</span>"
 msgid_plural "To Activate <span class=\"count\">(%s)</span>"
 msgstr[0] ""
@@ -1149,22 +1228,29 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
+#: includes/tgm/class-tgm-plugin-activation.php:2547
+msgid "Version"
+msgstr ""
+
 #: includes/tgm/class-tgm-plugin-activation.php:2548
 msgid "Status"
 msgstr ""
 
 #. translators: %2$s: plugin name in screen reader markup
 #: includes/tgm/class-tgm-plugin-activation.php:2597
+#, php-format
 msgid "Install %2$s"
 msgstr ""
 
 #. translators: %2$s: plugin name in screen reader markup
 #: includes/tgm/class-tgm-plugin-activation.php:2602
+#, php-format
 msgid "Update %2$s"
 msgstr ""
 
 #. translators: %2$s: plugin name in screen reader markup
 #: includes/tgm/class-tgm-plugin-activation.php:2608
+#, php-format
 msgid "Activate %2$s"
 msgstr ""
 
@@ -1178,6 +1264,10 @@ msgstr ""
 
 #: includes/tgm/class-tgm-plugin-activation.php:2717
 msgid "Update"
+msgstr ""
+
+#: includes/tgm/class-tgm-plugin-activation.php:2720
+msgid "Activate"
 msgstr ""
 
 #: includes/tgm/class-tgm-plugin-activation.php:2751
@@ -1210,16 +1300,19 @@ msgstr ""
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: includes/tgm/class-tgm-plugin-activation.php:3492
+#, php-format
 msgid "Updating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
 #. translators: 1: plugin name, 2: error message.
 #: includes/tgm/class-tgm-plugin-activation.php:3495
+#, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr ""
 
 #. translators: 1: plugin name.
 #: includes/tgm/class-tgm-plugin-activation.php:3497
+#, php-format
 msgid "The installation of %1$s failed."
 msgstr ""
 
@@ -1229,6 +1322,7 @@ msgstr ""
 
 #. translators: 1: plugin name.
 #: includes/tgm/class-tgm-plugin-activation.php:3503
+#, php-format
 msgid "%1$s installed and activated successfully."
 msgstr ""
 
@@ -1250,6 +1344,7 @@ msgstr ""
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: includes/tgm/class-tgm-plugin-activation.php:3506
+#, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
@@ -1259,6 +1354,7 @@ msgstr ""
 
 #. translators: 1: plugin name.
 #: includes/tgm/class-tgm-plugin-activation.php:3511
+#, php-format
 msgid "%1$s installed successfully."
 msgstr ""
 
@@ -1268,6 +1364,7 @@ msgstr ""
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: includes/tgm/class-tgm-plugin-activation.php:3514
+#, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
@@ -1275,11 +1372,16 @@ msgstr ""
 msgid "Kirki Customizer Framework"
 msgstr ""
 
+#: includes/tgm/tgm.php:17
+msgid "WPElemento Importer"
+msgstr ""
+
 #: index.php:20
 msgid "Blog"
 msgstr ""
 
 #: no-results.php:17
+#, php-format
 msgid "Ready to publish your first post? Get started %s."
 msgstr ""
 
@@ -1304,24 +1406,12 @@ msgstr ""
 msgid "Type Here..."
 msgstr ""
 
-#: searchform.php:3
-msgid "Search"
-msgstr ""
-
-#: sidebar.php:13
+#: sidebar.php:14
 msgid "sidebar1"
 msgstr ""
 
-#: sidebar.php:14
-msgid "Archives"
-msgstr ""
-
-#: sidebar.php:19
-msgid "sidebar2"
-msgstr ""
-
 #: sidebar.php:20
-msgid "Meta"
+msgid "sidebar2"
 msgstr ""
 
 #: single.php:16
@@ -1334,40 +1424,46 @@ msgstr ""
 
 #: template-parts/content-post.php:31
 #: template-parts/content.php:51
-#: template-parts/content.php:91
+#: template-parts/content.php:94
 msgid "0 Comments"
 msgstr ""
 
 #: template-parts/content-post.php:31
 #: template-parts/content.php:51
-#: template-parts/content.php:91
+#: template-parts/content.php:94
 msgid "% Comments"
 msgstr ""
 
-#: template-parts/content-post.php:37
+#: template-parts/content-post.php:40
 msgid "Tags:"
 msgstr ""
 
-#: template-parts/content-post.php:41
+#: template-parts/content-post.php:44
 msgid "Categories:"
 msgstr ""
 
 #: template-parts/content.php:26
-#: template-parts/content.php:66
+#: template-parts/content.php:69
+#: template-parts/related-posts.php:35
 msgid "Post Image"
 msgstr ""
 
 #: template-parts/content.php:32
-#: template-parts/content.php:72
+#: template-parts/content.php:75
+#: template-parts/related-posts.php:40
 msgid "Read More"
 msgstr ""
 
-#: template-parts/pagination.php:3
+#: template-parts/pagination.php:4
 msgid "Previous page"
 msgstr ""
 
-#: template-parts/pagination.php:4
+#: template-parts/pagination.php:5
 msgid "Next page"
+msgstr ""
+
+#: template-parts/related-posts.php:25
+msgid "Related Post"
 msgstr ""
 
 #. Template Name of the theme
@@ -1384,6 +1480,10 @@ msgstr ""
 
 #: woocommerce/checkout/form-checkout.php:26
 msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:32
+msgid "Checkout"
 msgstr ""
 
 #: woocommerce/checkout/form-checkout.php:54

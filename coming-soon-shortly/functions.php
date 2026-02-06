@@ -165,7 +165,7 @@ if (!function_exists('coming_soon_shortly_after_setup_theme')) {
 	
 		global $pagenow;
 		
-		if (is_admin() && ('themes.php' == $pagenow) && isset( $_GET['activated'] )) {
+		if ( is_admin() && $pagenow === 'themes.php' && (!isset($_GET['page']) || $_GET['page'] !== 'coming_soon_shortly_about')) {
 			add_action('admin_notices', 'coming_soon_shortly_activation_notice');
 		}
 
@@ -176,22 +176,24 @@ if (!function_exists('coming_soon_shortly_after_setup_theme')) {
 }
 
 function coming_soon_shortly_activation_notice() {
-	echo '<div class="notice notice-info wpele-activation-notice is-dismissible">';
-		echo '<div class="notice-body">';
-			echo '<div class="notice-content">';
-				echo '<h2>'. esc_html__( 'Welcome to WPElemento', 'coming-soon-shortly' ) .'</h2>';
-				echo '<p>'. esc_html__( 'Thank you for choosing Coming Soon Shortly theme .To setup the theme, please visit the get started page.', 'coming-soon-shortly' ) .'</p>';
-				echo '<span><a href="'. esc_url( admin_url( 'themes.php?page=coming_soon_shortly_about' ) ) .'" class="button button-notice">'. esc_html__( 'GET STARTED', 'coming-soon-shortly' ) .'</a></span>';
-				echo '<span><a href="'. esc_url( COMING_SOON_SHORTLY_BUY_NOW ) .'" class="button button-notice" target="_blank" >'. esc_html__( 'BUY NOW', 'coming-soon-shortly' ) .'</a></span>';
-				echo '<span><a href="'. esc_url( COMING_SOON_SHORTLY_LIVE_DEMO ) .'" class="button button-notice" target="_blank" >'. esc_html__( 'DEMO', 'coming-soon-shortly' ) .'</a></span>';
-			echo '</div>';
-			echo '<div class="notice-icon">';
-				echo '<img src="'.esc_url(get_template_directory_uri()).'/includes/getstart/images/get-logo.png ">';
+	$coming_soon_shortly_meta = get_option( 'coming_soon_shortly_admin_notice' );
+	if (!$coming_soon_shortly_meta) {
+			echo '<div id="coming-soon-shortly-welcome-notice" class="notice notice-info wpele-activation-notice is-dismissible">';
+			echo '<div class="notice-body">';
+				echo '<div class="notice-content">';
+					echo '<h2>'. esc_html__( 'Welcome to WPElemento', 'coming-soon-shortly' ) .'</h2>';
+					echo '<p>'. esc_html__( 'Thank you for choosing Coming Soon Shortly theme .To setup the theme, please visit the get started page.', 'coming-soon-shortly' ) .'</p>';
+					echo '<span><a href="'. esc_url( admin_url( 'themes.php?page=coming_soon_shortly_about' ) ) .'" class="button button-notice">'. esc_html__( 'GET STARTED', 'coming-soon-shortly' ) .'</a></span>';
+					echo '<span><a href="'. esc_url( COMING_SOON_SHORTLY_BUY_NOW ) .'" class="button button-notice" target="_blank" >'. esc_html__( 'BUY NOW', 'coming-soon-shortly' ) .'</a></span>';
+					echo '<span><a href="'. esc_url( COMING_SOON_SHORTLY_LIVE_DEMO ) .'" class="button button-notice" target="_blank" >'. esc_html__( 'DEMO', 'coming-soon-shortly' ) .'</a></span>';
+				echo '</div>';
+				echo '<div class="notice-icon">';
+					echo '<img src="'.esc_url(get_template_directory_uri()).'/includes/getstart/images/get-logo.png ">';
+				echo '</div>';
 			echo '</div>';
 		echo '</div>';
-	echo '</div>';
+	}
 }
-
 /* Get post comments */
 
 if (!function_exists('coming_soon_shortly_comment')) :
@@ -463,5 +465,13 @@ define('COMING_SOON_SHORTLY_LIVE_DEMO',__('https://preview.wpelemento.com/coming
 define('COMING_SOON_SHORTLY_THEME_BUNDLE',__('https://www.wpelemento.com/products/wordpress-theme-bundle','coming-soon-shortly'));
 }
 add_action('after_setup_theme', 'coming_soon_shortly_enqueue_setting');
+function coming_soon_shortly_dismissed_notice() {
+	update_option( 'coming_soon_shortly_admin_notice', true );
+}
+add_action( 'wp_ajax_coming_soon_shortly_dismissed_notice', 'coming_soon_shortly_dismissed_notice' );
 
+add_action('after_switch_theme', 'coming_soon_shortly_getstart_setup_options');
+function coming_soon_shortly_getstart_setup_options () {
+    update_option('coming_soon_shortly_admin_notice', false );
+}
 ?>

@@ -1,16 +1,16 @@
 === Coming Soon Shortly ===
 Contributors: wpelemento
 Requires at least: 5.0
-Stable tag: 0.2.3
+Stable tag: 0.3.0
 Requires PHP: 5.6
-Tested up to: 6.8
+Tested up to: 6.9
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags:  blog, entertainment, portfolio, one-column, two-columns, right-sidebar, left-sidebar, grid-layout, three-columns, four-columns, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, flexible-header, footer-widgets, full-width-template, editor-style, sticky-post, theme-options, threaded-comments, translation-ready, rtl-language-support, wide-blocks
 
 == Description ==
 
-Coming Soon Shortly is your go-to solution for building anticipation and excitement ahead of your brand's official launch. With its sleek and minimalist design, this WordPress theme offers a tantalizing glimpse into what's in store for your audience. Our theme caters to businesses and individuals preparing for a launch or event, featuring a responsive design with a customizable countdown timer, Mailchimp integration, and minimalist layout options. Whether you're gearing up for a product launch, undergoing maintenance, under construction,launch page, maintenance mode, landing page, teaser page, pre-launch,website launch, product launch, countdown timer or announcing upcoming projects, our theme ensures a seamless transition and keeps visitors engaged until the big reveal. Stay tuned for the ultimate coming soon experience with our theme, perfect for building anticipation and excitement around your upcoming product launches, events, and projects. The strategically placed countdown timer creates a sense of urgency, encouraging visitors to mark their calendars for the highly anticipated event. Versatility is a key feature of this theme, catering to a diverse range of industries, from startups to well-established brands. This theme comes with all the necessary tools and features to help you create a stunning website. Its user-friendly customization options provide you with the flexibility to align the theme seamlessly with your brand identity. The intuitive interface empowers you to effortlessly tweak and tailor elements, ensuring a cohesive and on-brand look. As an integral component of your pre-launch marketing strategy, the Coming Soon Shortly WordPress Theme plays a crucial role in creating a captivating and memorable first impression. It sets the stage for a successful unveiling, leaving a lasting impact on your audience and generating buzz that extends far beyond the initial reveal. The Coming Soon Shortly WordPress Theme is your digital curtain, ready to lift and unveil your brand to the world in a way that leaves a lasting impression.
+Coming Soon Shortly is your go-to solution for building anticipation and excitement ahead of your brand’s official launch, offering a sleek and minimalist design that provides a tantalizing glimpse into what’s coming next. Perfect for product launch, maintenance mode, under construction pages, launch page, teaser page, landing page, pre-launch campaigns, website launch announcements, upcoming projects, startup previews, event countdowns, brand reveal pages, coming soon screens, and temporary offline pages, this responsive template features a customizable countdown timer, Mailchimp integration, and clean layout options to keep visitors engaged until the big reveal. It ensures a seamless transition during maintenance or development phases while generating buzz and capturing leads through email signup forms and early-interest opt-ins. The strategically placed countdown timer creates urgency, encouraging visitors to mark their calendars for the upcoming event. Versatility is a key advantage, making it suitable for startups, agencies, personal brands, creative portfolios, SaaS products, and well-established companies preparing for launches. The theme offers user-friendly customization with flexible controls for typography, layout, color schemes, and background styles, allowing a cohesive and on-brand appearance without technical expertise. It integrates smoothly with essential plugins like Contact Form 7 for lead capture, WooCommerce for pre-launch deposits or early-bird sales, Yoast SEO for visibility, popup and newsletter plugins for audience growth, and maintenance-mode tools such as SeedProd, Coming Soon Page & Maintenance Mode, and Minimal Coming Soon for advanced functionality. As a cornerstone of your pre-launch marketing strategy, Coming Soon Shortly plays a crucial role in creating a memorable first impression, driving excitement, and setting the stage for a successful unveiling. 
 
 == Resources ==
 
@@ -64,6 +64,39 @@ License URI : https://pxhere.com/en/license, CC0
 Source 		: https://pxhere.com/en/photo/657512
 
 == Changelog ==
+
+= January-1-2026 :: 0.3.0
+
+* Fixed minor error.
+
+= December-11-2025 :: 0.2.9
+
+* Updated getstarted.
+* Updated pot file.
+* Tested upto 6.9.
+* Getstarted notice issue resolve.
+
+= December-1-2025 :: 0.2.8
+
+* Fixed minor error.
+
+= November-26-2025 :: 0.2.7
+
+* Added sticky sidebar.
+* Remove unwanted css.
+
+= October-31-2025 :: 0.2.6
+
+* Fixed minor errors.
+
+= October-27-2025 :: 0.2.5
+
+* Added animation on footer and sidebar.
+* Added sticky copyright.
+
+= October-1-2025 :: 0.2.4
+
+* Fixed minor errors.
 
 = September-18-2025 :: 0.2.3
 

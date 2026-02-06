@@ -214,3 +214,39 @@ const coming_soon_shortly_progressBar = {
   },
 };
 coming_soon_shortly_progressBar.init();
+
+/* ===============================================
+   sticky copyright
+============================================= */
+
+window.addEventListener('scroll', function() {
+  var coming_soon_shortly_footer = document.querySelector('.sticky-copyright');
+  if (!coming_soon_shortly_footer) return; 
+
+  var coming_soon_shortly_scrollTop = window.scrollY || document.documentElement.coming_soon_shortly_scrollTop;
+
+  if (coming_soon_shortly_scrollTop >= 100) {
+    coming_soon_shortly_footer.classList.add('active-sticky');
+  }
+});
+
+/* ===============================================
+   sticky sidebar
+============================================= */
+
+window.addEventListener('scroll', function () {
+  var coming_soon_shortly_sidebar = document.querySelector('.sidebar-sticky');
+  if (!coming_soon_shortly_sidebar) return;
+
+  var coming_soon_shortly_scrollTop = window.scrollY || document.documentElement.scrollTop;
+  var coming_soon_shortly_windowHeight = window.innerHeight;
+  var coming_soon_shortly_documentHeight = document.documentElement.scrollHeight;
+
+  var coming_soon_shortly_isBottom = coming_soon_shortly_scrollTop + coming_soon_shortly_windowHeight >= coming_soon_shortly_documentHeight - 100;
+
+  if (coming_soon_shortly_scrollTop >= 100 && !coming_soon_shortly_isBottom) {
+    coming_soon_shortly_sidebar.classList.add('sidebar-fixed');
+  } else {
+    coming_soon_shortly_sidebar.classList.remove('sidebar-fixed');
+  }
+});
