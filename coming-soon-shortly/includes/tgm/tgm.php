@@ -21,6 +21,6 @@ function coming_soon_shortly_register_recommended_plugins() {
 		)
 	);
 	$config = array();
-	coming_soon_shortly_tgmpa( $plugins, $config );
+	tgmpa( $plugins, $config );
 }
 add_action( 'tgmpa_register', 'coming_soon_shortly_register_recommended_plugins' );

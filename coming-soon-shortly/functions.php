@@ -451,6 +451,12 @@ require get_template_directory() .'/includes/tgm/tgm.php';
 require get_template_directory() . '/includes/customizer.php';
 load_template( trailingslashit( get_template_directory() ) . '/includes/go-pro/class-upgrade-pro.php' );
 
+require get_template_directory() . '/includes/post-create.php';
+
+if( class_exists( 'Whizzie' ) ) {
+	$Whizzie = new Whizzie();
+}
+
 /* Plugin Activation */
 require get_template_directory() . '/includes/getstart/plugin-activation.php';
 

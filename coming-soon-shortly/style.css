@@ -4,7 +4,7 @@ Description: Coming Soon Shortly is your go-to solution for building anticipatio
 Author: wpelemento
 Theme URI: https://www.wpelemento.com/products/free-coming-soon-wordpress-theme
 Author URI: https://www.wpelemento.com/
-Version: 0.3.0
+Version: 0.3.1
 Requires PHP: 5.6
 Tested up to: 6.9
 Requires at least: 5.0
@@ -1150,6 +1150,7 @@ header.woocommerce-Address-title.title{
   background: var(--primary-theme-color);
   color: #fff;
   line-height: unset;
+  border-radius: 7px !important;
 }
 .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover,.woocommerce a.added_to_cart:hover{
   background: #121212;
@@ -1192,7 +1193,11 @@ h2.woocommerce-loop-product__title {
 }
 .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
   text-align: center;
+  border: 1px solid var(--primary-theme-color);
+  border-radius: 10px;
+  padding: 10px;
 }
+
 .woocommerce .quantity .qty {
   width: 13em;
   padding: 8px;

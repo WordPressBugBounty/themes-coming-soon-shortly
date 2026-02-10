@@ -1162,6 +1162,27 @@ if ( class_exists("Kirki")){
 	) );
 
 	Kirki::add_field( 'theme_config_id', [
+	'type'     => 'select',
+	'tab'      => 'single-post',
+	'settings' => 'coming_soon_shortly_single_post_featured_image_hover',
+	'label'    => esc_html__( 'Featured Image Hover Effect', 'coming-soon-shortly' ),
+	'section'  => 'coming_soon_shortly_blog_post',
+	'default'  => 'none',
+	'priority' => 20,
+	'choices'  => [
+		'none'      => esc_html__( 'None', 'coming-soon-shortly' ),
+		'zoom-in'   => esc_html__( 'Zoom In', 'coming-soon-shortly' ),
+		'zoom-out'  => esc_html__( 'Zoom Out', 'coming-soon-shortly' ),
+		'scale'     => esc_html__( 'Scale', 'coming-soon-shortly' ),
+		'grayscale' => esc_html__( 'Grayscale', 'coming-soon-shortly' ),
+		'blur'      => esc_html__( 'Blur', 'coming-soon-shortly' ),
+		'bright'    => esc_html__( 'Bright', 'coming-soon-shortly' ),
+		'sepia'     => esc_html__( 'Sepia', 'coming-soon-shortly' ),
+		'translate' => esc_html__( 'Translate', 'coming-soon-shortly' ),
+	],
+    ] );
+
+	Kirki::add_field( 'theme_config_id', [
 		'type'        => 'custom',
 		'tab'      => 'single-post',
 		'settings'    => 'coming_soon_shortly_show_related_post_heading',

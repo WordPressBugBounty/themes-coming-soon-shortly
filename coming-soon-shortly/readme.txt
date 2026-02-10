@@ -1,7 +1,7 @@
 === Coming Soon Shortly ===
 Contributors: wpelemento
 Requires at least: 5.0
-Stable tag: 0.3.0
+Stable tag: 0.3.1
 Requires PHP: 5.6
 Tested up to: 6.9
 License: GPLv3.0 or later
@@ -64,6 +64,16 @@ License URI : https://pxhere.com/en/license, CC0
 Source 		: https://pxhere.com/en/photo/657512
 
 == Changelog ==
+
+= January-17-2026 :: 0.3.1
+
+* Updated rtl.css file.
+* Added hover effect on single post featured image.
+* Resolve css error.
+* Added menu in demo import.
+* Fetching post in blog page.
+* Resolve shop page css.
+* Resolve tgm plugin error.
 
 = January-1-2026 :: 0.3.0
 

@@ -36,4 +36,60 @@
 		$coming_soon_shortly_theme_custom_setting_css .='.related.products{';
 			$coming_soon_shortly_theme_custom_setting_css .='display: none;';
 		$coming_soon_shortly_theme_custom_setting_css .='}';
-	}    
+	}  
+	
+	// Featured Image Hover Effect
+    $coming_soon_shortly_show_featured = get_theme_mod('coming_soon_shortly_featured_image_hide_show', 1);
+    $coming_soon_shortly_hover_effect = get_theme_mod('coming_soon_shortly_single_post_featured_image_hover','none');
+
+    if ( $coming_soon_shortly_show_featured && $coming_soon_shortly_hover_effect !== 'none' ) {
+
+    $coming_soon_shortly_theme_custom_setting_css .= '
+    .post-img img{
+        transition: all 0.4s ease;
+    }';
+
+    if ( $coming_soon_shortly_hover_effect === 'zoom-in' ) {
+        $coming_soon_shortly_theme_custom_setting_css .= '
+        .post-img:hover img{
+            transform: scale(1.2);
+        }';
+    }
+
+    if ( $coming_soon_shortly_hover_effect === 'zoom-out' ) {
+        $coming_soon_shortly_theme_custom_setting_css .= '
+        .post-img img{ transform: scale(1.2); }
+        .post-img:hover img{ transform: scale(1); }';
+    }
+
+    if ( $coming_soon_shortly_hover_effect === 'grayscale' ) {
+        $coming_soon_shortly_theme_custom_setting_css .= '
+        .post-img img{ filter: grayscale(100%); }
+        .post-img:hover img{ filter: grayscale(0); }';
+    }
+
+    if ( $coming_soon_shortly_hover_effect === 'sepia' ) {
+        $coming_soon_shortly_theme_custom_setting_css .= '
+        .post-img:hover img{ filter: sepia(100%); }';
+    }
+
+    if ( $coming_soon_shortly_hover_effect === 'blur' ) {
+        $coming_soon_shortly_theme_custom_setting_css .= '
+        .post-img:hover img{ filter: blur(3px); }';
+    }
+
+    if ( $coming_soon_shortly_hover_effect === 'bright' ) {
+        $coming_soon_shortly_theme_custom_setting_css .= '
+        .post-img:hover img{ filter: brightness(1.3); }';
+    }
+
+    if ( $coming_soon_shortly_hover_effect === 'translate' ) {
+        $coming_soon_shortly_theme_custom_setting_css .= '
+        .post-img:hover img{ transform: translateY(-10px); }';
+    }
+
+    if ( $coming_soon_shortly_hover_effect === 'scale' ) {
+        $coming_soon_shortly_theme_custom_setting_css .= '
+        .post-img:hover img{ transform: scale(1.1); }';
+    }
+}
