@@ -405,6 +405,10 @@ function coming_soon_shortly_the_breadcrumb() {
 
 add_action( 'wp_enqueue_scripts', 'coming_soon_shortly_logo_resizer' );
 
+add_filter( 'woocommerce_single_product_image_thumbnail_html', function( $html ) {
+    return '<div class="product-img">' . $html . '</div>';
+});
+
 /**
  * Change number or products per row to 3
  */

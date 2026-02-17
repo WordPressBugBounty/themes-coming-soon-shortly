@@ -561,6 +561,34 @@ if ( class_exists("Kirki")){
 		'default'     => true,
 		'priority'    => 10,
 	] );
+
+	Kirki::add_field( 'theme_config_id', [
+    'type'     => 'custom',
+    'settings' => 'coming_soon_shortly_show_product_featured_image_hover_heading',
+    'section'  => 'coming_soon_shortly_woocommerce_settings',
+    'default'  => '<h3 style="color: #2271b1; padding:10px; background:#fff; margin:0; border-left: solid 5px #2271b1;">' . __( 'Product Featured Image Hover Effect', 'coming-soon-shortly' ) . '</h3>',
+    'priority' => 20,
+   ] );
+
+	Kirki::add_field( 'theme_config_id', [
+    'type'     => 'select',
+    'settings' => 'coming_soon_shortly_product_featured_image_hover',
+    'label'    => esc_html__( 'Product Featured Image Hover Effect', 'coming-soon-shortly' ),
+    'section'  => 'coming_soon_shortly_woocommerce_settings',
+    'default'  => 'none',
+    'priority' => 30,
+    'choices'  => [
+        'none'      => esc_html__( 'None', 'coming-soon-shortly' ),
+        'zoom-in'   => esc_html__( 'Zoom In', 'coming-soon-shortly' ),
+        'zoom-out'  => esc_html__( 'Zoom Out', 'coming-soon-shortly' ),
+        'scale'     => esc_html__( 'Scale', 'coming-soon-shortly' ),
+        'grayscale' => esc_html__( 'Grayscale', 'coming-soon-shortly' ),
+        'blur'      => esc_html__( 'Blur', 'coming-soon-shortly' ),
+        'bright'    => esc_html__( 'Bright', 'coming-soon-shortly' ),
+        'sepia'     => esc_html__( 'Sepia', 'coming-soon-shortly' ),
+        'translate' => esc_html__( 'Translate', 'coming-soon-shortly' ),
+    ],
+    ] );
 	
 	//ADDITIONAL SETTINGS
 

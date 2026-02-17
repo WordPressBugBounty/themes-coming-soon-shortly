@@ -1,7 +1,7 @@
 === Coming Soon Shortly ===
 Contributors: wpelemento
 Requires at least: 5.0
-Stable tag: 0.3.1
+Stable tag: 0.3.2
 Requires PHP: 5.6
 Tested up to: 6.9
 License: GPLv3.0 or later
@@ -64,6 +64,13 @@ License URI : https://pxhere.com/en/license, CC0
 Source 		: https://pxhere.com/en/photo/657512
 
 == Changelog ==
+
+= February-9-2026 :: 0.3.2
+
+* Added hover effect on product featured image.
+* Added animation on single post.
+* Added animation on related post.
+* Hover color on getstarted button.
 
 = January-17-2026 :: 0.3.1
 

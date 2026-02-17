@@ -21,7 +21,7 @@ $coming_soon_shortly_post_args['category__in'] = $coming_soon_shortly_terms_ids;
 $coming_soon_shortly_related_posts = new WP_Query( $coming_soon_shortly_post_args );
 
 if ( $coming_soon_shortly_related_posts->have_posts() ) : ?>
-    <div class="related-post">
+    <div class="related-post <?php echo esc_attr( get_theme_mod('coming_soon_shortly_enable_post_animation', true) ? 'zoomInUp wow' : '' ); ?>">
         <h3><?php echo esc_html__('Related Post' ,'coming-soon-shortly' );?></h3>
         <div class="row">
             <?php while ( $coming_soon_shortly_related_posts->have_posts() ) : $coming_soon_shortly_related_posts->the_post(); ?>
