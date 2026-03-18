@@ -31,16 +31,45 @@
 		do_action('wp_body_open');
 	}
 ?>
-<?php if(get_theme_mod('coming_soon_shortly_preloader_hide', false )){ ?>
-	<div class="loader">
-		<div class="preloader">
-			<div class="diamond">
-				<span></span>
-				<span></span>
-				<span></span>
+<?php 
+if( get_theme_mod('coming_soon_shortly_preloader_hide', false ) == true ){ 
+
+	$coming_soon_shortly_type = get_theme_mod('coming_soon_shortly_preloader_type','diamond');
+?>
+<div class="frame">
+	<div class="loader preloader-types">
+
+		<?php if($coming_soon_shortly_type == 'diamond'){ ?>
+
+			<div class="preloader">
+				<div class="diamond">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
 			</div>
-		</div>
+
+		<?php } elseif($coming_soon_shortly_type == 'orbit'){ ?>
+
+			<div class="orbit-loader">
+				<div class="orbit-center"></div>
+				<div class="orbit-ring">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+
+		<?php } elseif($coming_soon_shortly_type == 'liquid'){ ?>
+
+			<div class="liquid-loader">
+				<div class="liquid-blob"></div>
+			</div>
+
+		<?php } ?>
+
 	</div>
+</div>
 <?php } ?>
 
 <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'coming-soon-shortly' ); ?></a>
@@ -75,7 +104,7 @@
 					<?php
 						wp_nav_menu( array(
 							'theme_location' => 'main-menu',
-							'container' => 'false'
+							'container' => false
 						));
 					?>
 					<button class="close-menu my-2 p-2" type="button">
