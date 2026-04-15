@@ -1,7 +1,7 @@
 === Coming Soon Shortly ===
 Contributors: wpelemento
 Requires at least: 5.0
-Stable tag: 0.3.3
+Stable tag: 0.3.4
 Requires PHP: 5.6
 Tested up to: 6.9
 License: GPLv3.0 or later
@@ -64,6 +64,10 @@ License URI : https://pxhere.com/en/license, CC0
 Source 		: https://pxhere.com/en/photo/657512
 
 == Changelog ==
+
+= April-1-2026 :: 0.3.4
+
+* Fixed minor error.
 
 = March-11-2026 :: 0.3.3
  
