@@ -65,6 +65,10 @@ Source 		: https://pxhere.com/en/photo/657512
 
 == Changelog ==
 
+= April-25-2026 :: 0.3.6
+
+* Version Updated. 
+
 = April-25-2026 :: 0.3.5
 
 * Description Update.
