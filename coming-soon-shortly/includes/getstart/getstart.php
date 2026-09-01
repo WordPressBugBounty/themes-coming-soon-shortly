@@ -153,7 +153,7 @@ function coming_soon_shortly_mostrar_guide() {
 		   <div class="tab-inner-box">
 			   <div class= "bundle-box">
 				    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/includes/getstart/images/bundle.png"/>
-				    <h1><?php esc_html_e('ELEMENTOR WORDPRESS THEME BUNDLE', 'coming-soon-shortly'); ?></h1>
+				    <h1><?php esc_html_e('ELEMENTOR WordPress THEME BUNDLE', 'coming-soon-shortly'); ?></h1>
 			     <div>
 				    <p class="product-price"><?php esc_html_e('Price:', 'coming-soon-shortly'); ?>
                         <span class="regular-price"><?php esc_html_e('$1,999.00', 'coming-soon-shortly'); ?></span>

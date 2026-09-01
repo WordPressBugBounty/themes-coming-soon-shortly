@@ -268,7 +268,7 @@ msgid "https://preview.wpelemento.com/coming-soon-shortly/"
 msgstr ""
 
 #: functions.php:475
-msgid "https://www.wpelemento.com/products/wordpress-theme-bundle"
+msgid "https://www.wpelemento.com/products/WordPress-theme-bundle"
 msgstr ""
 
 #: header.php:75
@@ -1024,7 +1024,7 @@ msgid "Version"
 msgstr ""
 
 #: includes/getstart/getstart.php:156
-msgid "ELEMENTOR WORDPRESS THEME BUNDLE"
+msgid "ELEMENTOR WordPress THEME BUNDLE"
 msgstr ""
 
 #: includes/getstart/getstart.php:158

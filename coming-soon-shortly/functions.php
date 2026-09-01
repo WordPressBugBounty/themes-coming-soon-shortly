@@ -472,7 +472,7 @@ define('COMING_SOON_SHORTLY_SUPPORT',__('https://wordpress.org/support/theme/com
 define('COMING_SOON_SHORTLY_REVIEW',__('https://wordpress.org/support/theme/coming-soon-shortly/reviews/','coming-soon-shortly'));
 define('COMING_SOON_SHORTLY_BUY_NOW',__('https://www.wpelemento.com/products/coming-soon-wordpress-theme','coming-soon-shortly'));
 define('COMING_SOON_SHORTLY_LIVE_DEMO',__('https://preview.wpelemento.com/coming-soon-shortly/','coming-soon-shortly'));
-define('COMING_SOON_SHORTLY_THEME_BUNDLE',__('https://www.wpelemento.com/products/wordpress-theme-bundle','coming-soon-shortly'));
+define('COMING_SOON_SHORTLY_THEME_BUNDLE',__('https://www.wpelemento.com/products/WordPress-theme-bundle','coming-soon-shortly'));
 }
 add_action('after_setup_theme', 'coming_soon_shortly_enqueue_setting');
 function coming_soon_shortly_dismissed_notice() {
