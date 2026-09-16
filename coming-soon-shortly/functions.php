@@ -2,7 +2,7 @@
 /**
  * Coming Soon Shortly functions and definitions
  *
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
+ * @link https://developer.WordPress.org/themes/basics/theme-functions/
  *
  * @package Coming Soon Shortly
  */
@@ -468,9 +468,9 @@ require get_template_directory() . '/includes/getstart/plugin-activation.php';
 require get_template_directory() . '/includes/getstart/getstart.php';
 
 define('COMING_SOON_SHORTLY_FREE_THEME_DOC',__('https://preview.wpelemento.com/theme-documentation/coming-soon-shortly/','coming-soon-shortly'));
-define('COMING_SOON_SHORTLY_SUPPORT',__('https://wordpress.org/support/theme/coming-soon-shortly/','coming-soon-shortly'));
-define('COMING_SOON_SHORTLY_REVIEW',__('https://wordpress.org/support/theme/coming-soon-shortly/reviews/','coming-soon-shortly'));
-define('COMING_SOON_SHORTLY_BUY_NOW',__('https://www.wpelemento.com/products/coming-soon-wordpress-theme','coming-soon-shortly'));
+define('COMING_SOON_SHORTLY_SUPPORT',__('https://WordPress.org/support/theme/coming-soon-shortly/','coming-soon-shortly'));
+define('COMING_SOON_SHORTLY_REVIEW',__('https://WordPress.org/support/theme/coming-soon-shortly/reviews/','coming-soon-shortly'));
+define('COMING_SOON_SHORTLY_BUY_NOW',__('https://www.wpelemento.com/products/coming-soon-WordPress-theme','coming-soon-shortly'));
 define('COMING_SOON_SHORTLY_LIVE_DEMO',__('https://preview.wpelemento.com/coming-soon-shortly/','coming-soon-shortly'));
 define('COMING_SOON_SHORTLY_THEME_BUNDLE',__('https://www.wpelemento.com/products/WordPress-theme-bundle','coming-soon-shortly'));
 }

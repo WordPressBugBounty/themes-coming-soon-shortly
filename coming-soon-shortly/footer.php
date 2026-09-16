@@ -5,7 +5,7 @@
  *
  * Contains the closing of the #content div and all content after.
  *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ * @link https://developer.WordPress.org/themes/basics/template-files/#template-partials
  *
  * @package Coming Soon Shortly
  */
@@ -87,7 +87,7 @@
             <p class="mb-0 py-3 text-center text-md-start">
               <?php
                 if (!get_theme_mod('coming_soon_shortly_footer_text') ) { ?>   
-                  <a href="<?php echo esc_url(__('https://www.wpelemento.com/products/free-coming-soon-wordpress-theme', 'coming-soon-shortly' )); ?>" target="_blank">  
+                  <a href="<?php echo esc_url(__('https://www.wpelemento.com/products/free-coming-soon-WordPress-theme', 'coming-soon-shortly' )); ?>" target="_blank">  
                     <?php esc_html_e('Coming Soon Shortly WordPress Theme','coming-soon-shortly'); ?>
                   </a>
                 <?php } else {
@@ -103,7 +103,7 @@
           </div>
           <div class="col-lg-6 col-md-6 align-self-center text-center text-md-end">
             <?php if ( get_theme_mod('coming_soon_shortly_copyright_enable', true) == true ) : ?>
-              <a href="<?php echo esc_url(__('https://wordpress.org','coming-soon-shortly') ); ?>" rel="generator"><?php  /* translators: %s: WordPress */ printf( esc_html__( 'Proudly powered by %s', 'coming-soon-shortly' ), 'WordPress' ); ?></a>
+              <a href="<?php echo esc_url(__('https://WordPress.org','coming-soon-shortly') ); ?>" rel="generator"><?php  /* translators: %s: WordPress */ printf( esc_html__( 'Proudly powered by %s', 'coming-soon-shortly' ), 'WordPress' ); ?></a>
             <?php endif; ?>
           </div>
         </div>

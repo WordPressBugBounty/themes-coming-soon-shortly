@@ -1,7 +1,7 @@
 === Coming Soon Shortly ===
 Contributors: wpelemento
 Requires at least: 5.0
-Stable tag: 0.4.1
+Stable tag: 0.4.2
 Requires PHP: 5.6
 Tested up to: 7.0
 License: GPLv3.0 or later
@@ -277,3 +277,6 @@ Source 		: https://pxhere.com/en/photo/657512
 
 = 0.4.1 =
 * Improved Theme Structure.
+
+= 0.4.2 =
+* Refined Layout Sections.
