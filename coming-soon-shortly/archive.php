@@ -2,7 +2,7 @@
 /**
  * The template for displaying archive pages
  *
- * @link https://developer.WordPress.org/themes/basics/template-hierarchy/
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package Coming Soon Shortly
  */

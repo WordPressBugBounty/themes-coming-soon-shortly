@@ -2,7 +2,7 @@
 /**
  * The template for displaying search results pages
  *
- * @link https://developer.WordPress.org/themes/basics/template-hierarchy/#search-result
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
  * @package Coming Soon Shortly
  */

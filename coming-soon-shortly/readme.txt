@@ -1,9 +1,9 @@
 === Coming Soon Shortly ===
 Contributors: wpelemento
 Requires at least: 5.0
-Stable tag: 0.4.2
+Stable tag: 0.4.3
 Requires PHP: 5.6
-Tested up to: 7.0
+Tested up to: 7.1
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags:  blog, entertainment, portfolio, one-column, two-columns, right-sidebar, left-sidebar, grid-layout, three-columns, four-columns, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, flexible-header, footer-widgets, full-width-template, editor-style, sticky-post, theme-options, threaded-comments, translation-ready, rtl-language-support, wide-blocks
@@ -280,3 +280,6 @@ Source 		: https://pxhere.com/en/photo/657512
 
 = 0.4.2 =
 * Refined Layout Sections.
+
+= 0.4.3 =
+* Fixed Minor Issues.

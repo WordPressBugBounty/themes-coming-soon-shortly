@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Coming Soon Shortly 0.3.3\n"
-"Report-Msgid-Bugs-To: https://WordPress.org/support/theme/coming-soon-shortly\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/coming-soon-shortly\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 #. Theme URI of the theme
 #: style.css
 #: footer.php:90
-msgid "https://www.wpelemento.com/products/free-coming-soon-WordPress-theme"
+msgid "https://www.wpelemento.com/products/free-coming-soon-wordpress-theme"
 msgstr ""
 
 #. Description of the theme
@@ -132,7 +132,7 @@ msgid " By %s"
 msgstr ""
 
 #: footer.php:106
-msgid "https://WordPress.org"
+msgid "https://wordpress.org"
 msgstr ""
 
 #. translators: %s: WordPress
@@ -250,17 +250,17 @@ msgid "https://preview.wpelemento.com/theme-documentation/coming-soon-shortly/"
 msgstr ""
 
 #: functions.php:471
-msgid "https://WordPress.org/support/theme/coming-soon-shortly/"
+msgid "https://wordpress.org/support/theme/coming-soon-shortly/"
 msgstr ""
 
 #: functions.php:472
-msgid "https://WordPress.org/support/theme/coming-soon-shortly/reviews/"
+msgid "https://wordpress.org/support/theme/coming-soon-shortly/reviews/"
 msgstr ""
 
 #: functions.php:473
 #: includes/customizer.php:104
 #: includes/customizer.php:1572
-msgid "https://www.wpelemento.com/products/coming-soon-WordPress-theme"
+msgid "https://www.wpelemento.com/products/coming-soon-wordpress-theme"
 msgstr ""
 
 #: functions.php:474
@@ -268,7 +268,7 @@ msgid "https://preview.wpelemento.com/coming-soon-shortly/"
 msgstr ""
 
 #: functions.php:475
-msgid "https://www.wpelemento.com/products/WordPress-theme-bundle"
+msgid "https://www.wpelemento.com/products/wordpress-theme-bundle"
 msgstr ""
 
 #: header.php:75
@@ -1015,7 +1015,7 @@ msgid "Live Demo"
 msgstr ""
 
 #: includes/getstart/getstart.php:138
-msgid "Theme Bundle at $79"
+msgid "Theme Bundle at $99"
 msgstr ""
 
 #: includes/getstart/getstart.php:147
@@ -1024,7 +1024,7 @@ msgid "Version"
 msgstr ""
 
 #: includes/getstart/getstart.php:156
-msgid "ELEMENTOR WordPress THEME BUNDLE"
+msgid "Elementor WordPress Theme Bundle"
 msgstr ""
 
 #: includes/getstart/getstart.php:158
@@ -1032,15 +1032,15 @@ msgid "Price:"
 msgstr ""
 
 #: includes/getstart/getstart.php:159
-msgid "$1,999.00"
+msgid "$3,240.00"
 msgstr ""
 
 #: includes/getstart/getstart.php:160
-msgid "$79.00"
+msgid "$99.00"
 msgstr ""
 
 #: includes/getstart/getstart.php:162
-msgid "The Elementor WordPress Theme Bundle offers a stunning collection of 76+ Premium Elementor Themes"
+msgid "The Elementor WordPress Theme Bundle offers a stunning collection of 125+ Premium Elementor Themes"
 msgstr ""
 
 #: includes/getstart/getstart.php:167

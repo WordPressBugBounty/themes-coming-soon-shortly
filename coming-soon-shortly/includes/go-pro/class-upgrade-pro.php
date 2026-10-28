@@ -74,7 +74,7 @@ final class Coming_Soon_Shortly_Customize {
 				array(
 					'title'       => esc_html__( 'Coming Soon Pro', 'coming-soon-shortly' ),
 					'pro_text'    => esc_html__( 'GO PRO', 'coming-soon-shortly' ),
-					'pro_url'     => 'https://www.wpelemento.com/products/coming-soon-WordPress-theme',
+					'pro_url'     => 'https://www.wpelemento.com/products/coming-soon-wordpress-theme',
 					'priority'    => 5,
 				)
 			)

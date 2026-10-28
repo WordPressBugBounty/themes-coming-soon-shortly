@@ -135,7 +135,7 @@ function coming_soon_shortly_mostrar_guide() {
 				    </span>
 				    <span class="demo-btn"><a href="<?php echo esc_url( COMING_SOON_SHORTLY_LIVE_DEMO ); ?>" target="_blank"><?php esc_html_e('Live Demo', 'coming-soon-shortly'); ?></a>
 				    </span>
-				    <span class="doc-btn"><a href="<?php echo esc_url( COMING_SOON_SHORTLY_THEME_BUNDLE ); ?>" target="_blank"><?php esc_html_e('Theme Bundle at $79', 'coming-soon-shortly'); ?></a>
+				    <span class="doc-btn"><a href="<?php echo esc_url( COMING_SOON_SHORTLY_THEME_BUNDLE ); ?>" target="_blank"><?php esc_html_e('Theme Bundle at $99', 'coming-soon-shortly'); ?></a>
 				    </span>
 			    </div>
             </div>			
@@ -153,13 +153,13 @@ function coming_soon_shortly_mostrar_guide() {
 		   <div class="tab-inner-box">
 			   <div class= "bundle-box">
 				    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/includes/getstart/images/bundle.png"/>
-				    <h1><?php esc_html_e('ELEMENTOR WordPress THEME BUNDLE', 'coming-soon-shortly'); ?></h1>
+				    <h1><?php esc_html_e('Elementor WordPress Theme Bundle', 'coming-soon-shortly'); ?></h1>
 			     <div>
 				    <p class="product-price"><?php esc_html_e('Price:', 'coming-soon-shortly'); ?>
-                        <span class="regular-price"><?php esc_html_e('$1,999.00', 'coming-soon-shortly'); ?></span>
-                        <span class="sale-price"><?php esc_html_e('$79.00', 'coming-soon-shortly'); ?></span>
+                        <span class="regular-price"><?php esc_html_e('$3,240.00', 'coming-soon-shortly'); ?></span>
+                        <span class="sale-price"><?php esc_html_e('$99.00', 'coming-soon-shortly'); ?></span>
                     </p>
-					<p><?php esc_html_e('The Elementor WordPress Theme Bundle offers a stunning collection of 76+ Premium Elementor Themes', 'coming-soon-shortly'); ?></p>
+					<p><?php esc_html_e('The Elementor WordPress Theme Bundle offers a stunning collection of 125+ Premium Elementor Themes', 'coming-soon-shortly'); ?></p>
                  </div>
 				</div> 
 			    <div class="offer-box"> 
